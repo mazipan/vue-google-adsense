@@ -32,7 +32,7 @@ export default {
     }
   },
   mounted () {
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    if(window.adsbygoogle) (adsbygoogle = window.adsbygoogle || []).push({});
   }
 }
 </script>

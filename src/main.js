@@ -4,9 +4,9 @@ import Ads from './plugin.js'
 
 Vue.use(require('vue-script2'))
 
-Vue.use(Ads.VueAdsense)
-Vue.use(Ads.VueInArticleAdsense)
-Vue.use(Ads.VueInFeedAdsense)
+Vue.use(Ads.Adsense)
+Vue.use(Ads.InArticleAdsense)
+Vue.use(Ads.InFeedAdsense)
 
 new Vue({
   el: '#app',

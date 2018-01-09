@@ -2,15 +2,25 @@ import Adsense from './Adsense.vue'
 import InArticleAdsense from './InArticleAdsense.vue'
 import InFeedAdsense from './InFeedAdsense.vue'
 
-const plugin = function(component){
-  return function (Vue) {
-    Vue.component(component.name, component)
+const pluginAdsense = {
+  install: Vue => {
+    Vue.component(Adsense.name, Adsense)
+  }
+}
+const pluginInArticleAdsense = {
+  install: Vue => {
+    Vue.component(InArticleAdsense.name, InArticleAdsense)
+  }
+}
+const pluginInFeedAdsense = {
+  install: Vue => {
+    Vue.component(InFeedAdsense.name, InFeedAdsense)
   }
 }
 
-Adsense.install = plugin(Adsense)
-InArticleAdsense.install = plugin(InArticleAdsense)
-InFeedAdsense.install = plugin(InFeedAdsense)
+Adsense.install = pluginAdsense.install
+InArticleAdsense.install = pluginInArticleAdsense.install
+InFeedAdsense.install = pluginInFeedAdsense.install
 
 export default {
   Adsense,

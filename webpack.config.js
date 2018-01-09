@@ -21,27 +21,28 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'vue-style-loader',
-          'css-loader',
-          'postcss-loader'
+          { loader: 'vue-style-loader', options: { sourceMap: true } },
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true } }
         ],
       },
       {
         test: /\.scss$/,
         use: [
-          'vue-style-loader',
-          'css-loader',
-          'sass-loader',
-          'postcss-loader'
+          { loader: 'vue-style-loader', options: { sourceMap: true } },
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'sass-loader', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true } }
         ],
       },
       {
         test: /\.sass$/,
         use: [
-          'vue-style-loader',
-          'css-loader',
-          'sass-loader?indentedSyntax',
-          'postcss-loader'
+          { loader: 'vue-style-loader', options: { sourceMap: true } },
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'sass-loader', options: { sourceMap: true } },
+          { loader: 'sass-loader?indentedSyntax', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true } }
         ],
       },
       {
@@ -67,6 +68,11 @@ module.exports = {
           }
           // other vue-loader options go here
         }
+      },
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
       },
       {
         test: /\.js$/,
