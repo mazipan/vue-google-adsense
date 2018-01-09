@@ -5,18 +5,21 @@
 
     <h2>VueAdsense</h2>
     <Adsense
+        root-class="wrapper VueAdsense"
         data-ad-client="ca-pub-5442972248172818"
         data-ad-slot="1487770485">
     </Adsense>
 
     <h2>VueInArticleAdsense</h2>
     <InArticleAdsense
+        root-class="wrapper VueInArticleAdsense"
         data-ad-client="ca-pub-5442972248172818"
         data-ad-slot="7974047383">
     </InArticleAdsense>
 
     <h2>VueInFeedAdsense</h2>
     <InFeedAdsense
+        root-class="wrapper VueInFeedAdsense"
         data-ad-layout-key="-fg+5n+6t-e7+r"
         data-ad-client="ca-pub-5442972248172818"
         data-ad-slot="2105028631">

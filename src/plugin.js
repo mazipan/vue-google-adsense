@@ -1,6 +1,6 @@
-import Adsense from './Adsense.vue'
-import InArticleAdsense from './InArticleAdsense.vue'
-import InFeedAdsense from './InFeedAdsense.vue'
+import Adsense from '@/components/Adsense.vue'
+import InArticleAdsense from '@/components/InArticleAdsense.vue'
+import InFeedAdsense from '@/components/InFeedAdsense.vue'
 
 const pluginAdsense = {
   install: Vue => {
