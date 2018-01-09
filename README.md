@@ -71,6 +71,12 @@ VueInFeedAdsense Template :
 | data-ad-slot       | String      | `empty`      | Attribute `data-ad-slot` from adsense   |
 | data-ad-layout-key | String      | `empty`      | Attribute `data-ad-layout-key` from adsense |
 
+## Who is using this library
+
+Already used in production for these project :
+
++ [Explore-Github](https://github.com/mazipan/explore-github.)
+
 ## Development
 
 ``` bash
