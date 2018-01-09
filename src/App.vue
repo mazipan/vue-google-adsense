@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-
     <section class="hero is-primary is-medium">
       <div class="hero-body">
           <div class="container has-text-centered">
@@ -57,7 +54,7 @@ export default {
   name: "app",
   data() {
     return {
-      title: "Welcome to Vue Google Adsense",
+      title: "Vue Google Adsense",
       subtitle:
         "Vue.js Google Adsense Component with InFeed and InArticle Ads support"
     };
@@ -65,32 +62,13 @@ export default {
 };
 </script>
 
-<style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-h1,
-h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
+<style lang="css" scoped>
+.hero.is-primary {
+    background: #4776e6;
+    background: -webkit-linear-gradient(left,#8e54e9,#4776e6);
+    background: -moz-linear-gradient(left,#8e54e9,#4776e6);
+    background: -o-linear-gradient(left,#8e54e9,#4776e6);
+    background: linear-gradient(90deg,#8e54e9,#4776e6);
 }
 </style>
+
