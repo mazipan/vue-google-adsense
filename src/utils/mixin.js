@@ -1,5 +1,5 @@
 import constant from '@/utils/constant.js'
-import init from '@/utils/init.js'
+// import init from '@/utils/init.js'
 
 export default {
   props: {
@@ -22,6 +22,6 @@ export default {
     }
   },
   mounted () {
-    init.initAds()
+    // init.initAds()
   }
 }

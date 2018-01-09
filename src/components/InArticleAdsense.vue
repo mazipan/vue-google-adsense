@@ -7,6 +7,9 @@
         data-ad-format="fluid"
         :data-ad-client="dataAdClient"
         :data-ad-slot="dataAdSlot"></ins>
+    <script2>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
   </div>
 </template>
 

@@ -6,6 +6,9 @@
         :data-ad-client="dataAdClient"
         :data-ad-slot="dataAdSlot"
         data-ad-format="auto"></ins>
+    <script2>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
   </div>
 </template>
 
