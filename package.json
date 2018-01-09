@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Irfan Maulana <mazipanneh@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --color --open --config webpack.config.dev.js",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.config.dev.js",
