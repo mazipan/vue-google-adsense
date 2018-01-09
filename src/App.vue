@@ -20,34 +20,34 @@
       </div>
     </section>
 
-    <div class="container is-fluid" style="margin-top: 20px;">
+    <div class="container is-fluid" style="margin-top:2em; margin-bottom:2em;">
       <section class="columns is-centered item">
-        <h2>Default Adsense</h2>
+        <h3>Default Adsense</h3>
         <Adsense
             root-class="wrapper VueAdsense"
             data-ad-client="ca-pub-5442972248172818"
             data-ad-slot="1487770485">
         </Adsense>
-      <section>
+      </section>
 
       <section class="columns is-centered item">
-        <h2>In Article Adsense</h2>
+        <h3>In Article Adsense</h3>
         <InArticleAdsense
             root-class="wrapper VueInArticleAdsense"
             data-ad-client="ca-pub-5442972248172818"
             data-ad-slot="7974047383">
         </InArticleAdsense>
-      <section>
+      </section>
 
       <section class="columns is-centered item">
-        <h2>In Feed Adsense</h2>
+        <h3>In Feed Adsense</h3>
         <InFeedAdsense
             root-class="wrapper VueInFeedAdsense"
             data-ad-layout-key="-fg+5n+6t-e7+r"
             data-ad-client="ca-pub-5442972248172818"
             data-ad-slot="2105028631">
         </InFeedAdsense>
-      <section>
+      </section>
     </div>
 
   </div>
@@ -73,6 +73,17 @@ export default {
   background: -moz-linear-gradient(left, #8e54e9, #4776e6);
   background: -o-linear-gradient(left, #8e54e9, #4776e6);
   background: linear-gradient(90deg, #8e54e9, #4776e6);
+}
+h1{
+  margin-bottom: 1.5em;
+  font-size: 1.8rem;
+}
+h3{
+  text-align: center;
+  font-size: 1.4rem;
+}
+.item{
+    padding: 1em;
 }
 </style>
 
