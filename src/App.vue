@@ -22,21 +22,25 @@
 
     <div class="container is-fluid" style="margin-top: 20px;">
       <section class="columns is-centered item">
-        <h2>VueAdsense</h2>
+        <h2>Default Adsense</h2>
         <Adsense
             root-class="wrapper VueAdsense"
             data-ad-client="ca-pub-5442972248172818"
             data-ad-slot="1487770485">
         </Adsense>
+      <section>
 
-        <h2>VueInArticleAdsense</h2>
+      <section class="columns is-centered item">
+        <h2>In Article Adsense</h2>
         <InArticleAdsense
             root-class="wrapper VueInArticleAdsense"
             data-ad-client="ca-pub-5442972248172818"
             data-ad-slot="7974047383">
         </InArticleAdsense>
+      <section>
 
-        <h2>VueInFeedAdsense</h2>
+      <section class="columns is-centered item">
+        <h2>In Feed Adsense</h2>
         <InFeedAdsense
             root-class="wrapper VueInFeedAdsense"
             data-ad-layout-key="-fg+5n+6t-e7+r"
@@ -64,11 +68,11 @@ export default {
 
 <style lang="css" scoped>
 .hero.is-primary {
-    background: #4776e6;
-    background: -webkit-linear-gradient(left,#8e54e9,#4776e6);
-    background: -moz-linear-gradient(left,#8e54e9,#4776e6);
-    background: -o-linear-gradient(left,#8e54e9,#4776e6);
-    background: linear-gradient(90deg,#8e54e9,#4776e6);
+  background: #4776e6;
+  background: -webkit-linear-gradient(left, #8e54e9, #4776e6);
+  background: -moz-linear-gradient(left, #8e54e9, #4776e6);
+  background: -o-linear-gradient(left, #8e54e9, #4776e6);
+  background: linear-gradient(90deg, #8e54e9, #4776e6);
 }
 </style>
 
