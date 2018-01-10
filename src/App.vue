@@ -21,8 +21,19 @@
     </section>
 
     <div class="container is-fluid" style="margin-top:2em; margin-bottom:2em;">
-      <section class="columns is-centered item">
+
+      <section class="item">
         <h3>Default Adsense</h3>
+        <h5>
+          A simple way to get ads on your page.
+          Choose the size, placement and style you want to display.
+          <a rel="noreferrer"
+              target="_blank"
+              href="https://support.google.com/adsense/answer/6002575?hl=en_GB">
+              Learn more
+          </a>
+
+        </h5>
         <Adsense
             root-class="wrapper VueAdsense"
             data-ad-client="ca-pub-5442972248172818"
@@ -30,8 +41,17 @@
         </Adsense>
       </section>
 
-      <section class="columns is-centered item">
+      <section class="item">
         <h3>In Article Adsense</h3>
+        <h5>
+          Ads that fit seamlessly in between the paragraphs of your pages for an enhanced reading experience.
+          <a rel="noreferrer"
+            target="_blank"
+            href="https://support.google.com/adsense/answer/7320112?hl=en_GB">
+            Learn more
+          </a>
+
+        </h5>
         <InArticleAdsense
             root-class="wrapper VueInArticleAdsense"
             data-ad-client="ca-pub-5442972248172818"
@@ -39,8 +59,17 @@
         </InArticleAdsense>
       </section>
 
-      <section class="columns is-centered item">
+      <section class="item">
         <h3>In Feed Adsense</h3>
+        <h5>
+          Ads that flow naturally inside a list of articles or products on your site, offering a great user experience.
+          <a rel="noreferrer"
+              target="_blank"
+              href="https://support.google.com/adsense/answer/7171765?hl=en_GB">
+            Learn more
+          </a>
+
+        </h5>
         <InFeedAdsense
             root-class="wrapper VueInFeedAdsense"
             data-ad-layout-key="-fg+5n+6t-e7+r"
@@ -91,6 +120,9 @@ h3{
 .item{
     padding: 1em;
     width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
 }
 </style>
 
