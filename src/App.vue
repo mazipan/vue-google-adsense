@@ -66,6 +66,12 @@ export default {
 };
 </script>
 
+<style>
+.wrapper{
+  width: 100%;
+}
+</style>
+
 <style lang="css" scoped>
 .hero.is-primary {
   background: #4776e6;
@@ -84,6 +90,7 @@ h3{
 }
 .item{
     padding: 1em;
+    width: 100%;
 }
 </style>
 
