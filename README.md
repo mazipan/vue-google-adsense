@@ -75,7 +75,10 @@ VueInFeedAdsense Template :
 
 Already used in production for these project :
 
-+ [Explore-Github](https://github.com/mazipan/explore-github.)
++ [Explore-Github](https:///mazipan.github.io/explore-github)
++ [Fire Jak](https://mazipan.github.io/FireJak)
++ [Rumah Sakit Jakarta](https://mazipan.github.io/RumahSakitJakarta)
++ [ChuckNorris](https://mazipan.github.io/chucknorris)
 
 ## Development
 
