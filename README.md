@@ -10,6 +10,16 @@
 
 https://mazipan.github.io/vue-google-adsense/
 
+## What is In Feed and In Article Ads?
+
+At least there is three (3) type ads in Google Adsense :
+
+- **Responsive Ads**: A simple way to get ads on your page. Choose the size, placement and style you want to display. [Learn more](https://support.google.com/adsense/answer/6002575?hl=en_GB)
+
+- **In Article Ads**: Ads that fit seamlessly in between the paragraphs of your pages for an enhanced reading experience. [Learn more](https://support.google.com/adsense/answer/7320112?hl=en_GB)
+
+- **In Feed Ads**: Ads that flow naturally inside a list of articles or products on your site, offering a great user experience. [Learn more](https://support.google.com/adsense/answer/7171765?hl=en_GB)
+
 ## How to use
 
 ### Installation
