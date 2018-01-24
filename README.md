@@ -42,6 +42,31 @@ Vue.use(Ads.InArticleAdsense)
 Vue.use(Ads.InFeedAdsense)
 ```
 
+### Usage in Nuxt.js 
+
+Create file `plugins/vue-google-adsense.js`, with code : 
+
+ ```javascript
+import Vue from 'vue'
+import Ads from 'vue-google-adsense'
+
+Vue.use(require('vue-script2'))
+
+Vue.use(Ads.Adsense)
+Vue.use(Ads.InArticleAdsense)
+Vue.use(Ads.InFeedAdsense)
+```
+
+Then update your `nuxt.config.js`, with code : 
+
+```javascript
+module.exports = {
+  plugins: [
+    { src: '~/plugins/vue-google-adsense', ssr: false }
+  ]
+}
+```
+
 ### Template
 
 VueAdsense Template :
