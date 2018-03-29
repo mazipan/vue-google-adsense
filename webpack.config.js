@@ -111,7 +111,7 @@ module.exports = {
     extensions: ['*', '.js', '.vue', '.json']
   },
   externals: {
-    "vue": "Vue"
+    'vue$': 'vue/dist/vue.esm.js'
   },
   devtool: '#eval-source-map',
   node: {

@@ -1,7 +1,7 @@
 {
   "name": "vue-google-adsense",
   "description": "Vue.js Google Adsense Component with InFeed and InArticle Ads support",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Irfan Maulana <mazipanneh@gmail.com>",
   "license": "MIT",
   "private": false,
