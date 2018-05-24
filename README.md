@@ -42,9 +42,9 @@ Vue.use(Ads.InArticleAdsense)
 Vue.use(Ads.InFeedAdsense)
 ```
 
-### Usage in Nuxt.js 
+### Usage in Nuxt.js
 
-Create file `plugins/vue-google-adsense.js`, with code : 
+Create file `plugins/vue-google-adsense.js`, with code :
 
  ```javascript
 import Vue from 'vue'
@@ -57,7 +57,7 @@ Vue.use(Ads.InArticleAdsense)
 Vue.use(Ads.InFeedAdsense)
 ```
 
-Then update your `nuxt.config.js`, with code : 
+Then update your `nuxt.config.js`, with code :
 
 ```javascript
 module.exports = {
@@ -105,6 +105,7 @@ VueInFeedAdsense Template :
 | data-ad-client     | String      | `empty`      | Attribute `data-ad-client` from adsense |
 | data-ad-slot       | String      | `empty`      | Attribute `data-ad-slot` from adsense   |
 | data-ad-layout-key | String      | `empty`      | Attribute `data-ad-layout-key` from adsense |
+| data-ad-test       | String      | `empty`      | Attribute `data-ad-test` from adsense |
 
 ## :metal: Who is using this library
 
