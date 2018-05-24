@@ -7,7 +7,8 @@
         data-ad-format="fluid"
         :data-ad-layout-key="dataAdLayoutKey"
         :data-ad-client="dataAdClient"
-        :data-ad-slot="dataAdSlot"></ins>
+        :data-ad-slot="dataAdSlot"
+        :data-ad-test="dataAdTest"></ins>
     <script2>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script2>

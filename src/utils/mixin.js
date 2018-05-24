@@ -1,5 +1,4 @@
 import constant from '@/utils/constant.js'
-// import init from '@/utils/init.js'
 
 export default {
   props: {
@@ -14,14 +13,15 @@ export default {
     dataAdSlot: {
       type: String,
       default: ''
+    },
+    dataAdTest: {
+      type: String,
+      default: ''
     }
   },
   data () {
     return {
       ADS_SCRIPT: constant.ADS_SCRIPT
     }
-  },
-  mounted () {
-    // init.initAds()
   }
 }

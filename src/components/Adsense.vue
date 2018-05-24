@@ -6,6 +6,7 @@
         :data-ad-layout-key="dataAdLayoutKey"
         :data-ad-client="dataAdClient"
         :data-ad-slot="dataAdSlot"
+        :data-ad-test="dataAdTest"
         data-ad-format="auto"></ins>
     <script2>
       (adsbygoogle = window.adsbygoogle || []).push({});
