@@ -2,97 +2,97 @@
   <div id="app">
     <section class="hero is-primary is-medium">
       <div class="hero-body">
-          <div class="container has-text-centered">
-            <figure class="image is-128x128" style="margin: auto;">
-                <img src="./assets/logo.png">
-            </figure>
-            <h1 class="title">
-                {{ title }}
-            </h1>
-            <h2 class="subtitle">
-                {{ subtitle }}
-            </h2>
-            <a href="https://github.com/mazipan/vue-google-adsense"
-              class="button is-primary is-inverted is-outlined">
+        <div class="container has-text-centered">
+          <figure
+            class="image is-128x128"
+            style="margin: auto;">
+            <img src="/images/logo.png">
+          </figure>
+          <h1 class="title">
+            {{ title }}
+          </h1>
+          <h2 class="subtitle">
+            {{ subtitle }}
+          </h2>
+          <a
+            href="https://github.com/mazipan/vue-google-adsense"
+            class="button is-primary is-inverted is-outlined">
             Fork in Github
-            </a>
-          </div>
+          </a>
+        </div>
       </div>
     </section>
 
-    <div class="container is-fluid" style="margin-top:2em; margin-bottom:2em;">
-
+    <div
+      class="container is-fluid"
+      style="margin-top:2em; margin-bottom:2em;">
       <section class="item">
         <h3>Default Adsense</h3>
         <h5>
           A simple way to get ads on your page.
           Choose the size, placement and style you want to display.
-          <a rel="noreferrer"
-              target="_blank"
-              href="https://support.google.com/adsense/answer/6002575?hl=en_GB">
-              Learn more
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://support.google.com/adsense/answer/6002575?hl=en_GB">
+            Learn more
           </a>
-
         </h5>
         <Adsense
-            root-class="wrapper VueAdsense"
-            data-ad-client="ca-pub-5442972248172818"
-            data-ad-slot="1487770485">
-        </Adsense>
+          root-class="wrapper VueAdsense"
+          data-ad-client="ca-pub-5442972248172818"
+          data-ad-slot="1487770485" />
       </section>
 
       <section class="item">
         <h3>In Article Adsense</h3>
         <h5>
           Ads that fit seamlessly in between the paragraphs of your pages for an enhanced reading experience.
-          <a rel="noreferrer"
+          <a
+            rel="noreferrer"
             target="_blank"
             href="https://support.google.com/adsense/answer/7320112?hl=en_GB">
             Learn more
           </a>
-
         </h5>
         <InArticleAdsense
-            root-class="wrapper VueInArticleAdsense"
-            data-ad-client="ca-pub-5442972248172818"
-            data-ad-slot="7974047383">
-        </InArticleAdsense>
+          root-class="wrapper VueInArticleAdsense"
+          data-ad-client="ca-pub-5442972248172818"
+          data-ad-slot="7974047383" />
       </section>
 
       <section class="item">
         <h3>In Feed Adsense</h3>
         <h5>
           Ads that flow naturally inside a list of articles or products on your site, offering a great user experience.
-          <a rel="noreferrer"
-              target="_blank"
-              href="https://support.google.com/adsense/answer/7171765?hl=en_GB">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://support.google.com/adsense/answer/7171765?hl=en_GB">
             Learn more
           </a>
-
         </h5>
         <InFeedAdsense
-            root-class="wrapper VueInFeedAdsense"
-            data-ad-layout-key="-fg+5n+6t-e7+r"
-            data-ad-client="ca-pub-5442972248172818"
-            data-ad-slot="2105028631">
-        </InFeedAdsense>
+          root-class="wrapper VueInFeedAdsense"
+          data-ad-layout-key="-fg+5n+6t-e7+r"
+          data-ad-client="ca-pub-5442972248172818"
+          data-ad-slot="2105028631" />
       </section>
     </div>
-
   </div>
 </template>
 
 <script>
 export default {
-  name: "app",
-  data() {
+  name: 'App',
+  data () {
     return {
-      title: "Vue Google Adsense",
+      title: 'Vue Google Adsense',
       subtitle:
-        "Vue.js Google Adsense Component with InFeed and InArticle Ads support"
-    };
+        'Vue.js Google Adsense Component with InFeed and InArticle Ads support'
+    }
   }
-};
+}
 </script>
 
 <style>
@@ -125,4 +125,3 @@ h3{
     margin: 0 auto;
 }
 </style>
-

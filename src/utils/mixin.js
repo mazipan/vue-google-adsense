@@ -1,4 +1,4 @@
-import constant from '@/utils/constant.js'
+import constant from './constant'
 
 export default {
   props: {
