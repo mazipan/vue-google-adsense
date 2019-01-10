@@ -18,7 +18,7 @@ module.exports = {
       'error',
       'PascalCase',
       {
-        ignores: ['nuxt', 'nuxt-link', 'nuxt-child', 'no-ssr']
+        ignores: ['nuxt', 'nuxt-link', 'nuxt-child', 'no-ssr', 'script2']
       }
     ],
     'vue/html-closing-bracket-newline': [

@@ -1,6 +1,6 @@
 <template>
   <div :class="rootClass">
-    <Script2
+    <script2
       type="text/javascript"
       async
       :src="ADS_SCRIPT" />
@@ -11,9 +11,9 @@
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest"
       data-ad-format="auto" />
-    <Script2>
+    <script2>
       (adsbygoogle = window.adsbygoogle || []).push({});
-    </Script2>
+    </script2>
   </div>
 </template>
 
