@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "revision": "fc4cbbea0da1a8c61f590775b0f8521d",
+    "revision": "ff6caf15d0cd5f7c91bfdc33d0673c47",
     "url": "/vue-google-adsense/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/vue-google-adsense/assets/js/runtime~index.910bc48d.js"
   },
   {
-    "revision": "6a965deda190e38619ba",
-    "url": "/vue-google-adsense/assets/js/index.6a965ded.chunk.js"
+    "revision": "2174aaeef19ecee9a341",
+    "url": "/vue-google-adsense/assets/js/index.2174aaee.chunk.js"
   },
   {
     "revision": "51bbfae3c4b8bbaad2a7",
     "url": "/vue-google-adsense/assets/js/chunk-vendors.51bbfae3.chunk.js"
   },
   {
-    "revision": "6a965deda190e38619ba",
-    "url": "/vue-google-adsense/assets/css/index.6a965ded.chunk.css"
+    "revision": "2174aaeef19ecee9a341",
+    "url": "/vue-google-adsense/assets/css/index.2174aaee.chunk.css"
   }
 ];
