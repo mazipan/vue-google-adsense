@@ -6,7 +6,7 @@
           <figure
             class="image is-128x128"
             style="margin: auto;">
-            <img src="/images/logo.png">
+            <img src="https://vuejs.org/images/logo.png">
           </figure>
           <h1 class="title">
             {{ title }}
