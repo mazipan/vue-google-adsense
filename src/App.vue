@@ -26,57 +26,83 @@
     <div
       class="container is-fluid"
       style="margin-top:2em; margin-bottom:2em;">
+
       <section class="item">
-        <h3>Default Adsense</h3>
-        <h5>
-          A simple way to get ads on your page.
-          Choose the size, placement and style you want to display.
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://support.google.com/adsense/answer/6002575?hl=en_GB">
-            Learn more
-          </a>
-        </h5>
-        <Adsense
-          root-class="wrapper VueAdsense"
-          data-ad-client="ca-pub-5442972248172818"
-          data-ad-slot="1487770485" />
+        <article class="message is-primary">
+          <div class="message-header">
+            <p>Default Adsense</p>
+          </div>
+          <div class="message-body">
+            <p>
+              A simple way to get ads on your page.
+              Choose the size, placement and style you want to display.
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://support.google.com/adsense/answer/6002575?hl=en_GB">
+                Learn more
+              </a>
+            </p>
+
+            <Adsense
+              root-class="wrapper VueAdsense"
+              ins-class="ins-custom"
+              data-ad-client="ca-pub-5442972248172818"
+              data-ad-slot="1487770485" />
+          </div>
+        </article>
       </section>
 
       <section class="item">
-        <h3>In Article Adsense</h3>
-        <h5>
-          Ads that fit seamlessly in between the paragraphs of your pages for an enhanced reading experience.
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://support.google.com/adsense/answer/7320112?hl=en_GB">
-            Learn more
-          </a>
-        </h5>
-        <InArticleAdsense
-          root-class="wrapper VueInArticleAdsense"
-          data-ad-client="ca-pub-5442972248172818"
-          data-ad-slot="7974047383" />
+        <article class="message is-info">
+          <div class="message-header">
+            <p>In Article Adsense</p>
+          </div>
+          <div class="message-body">
+            <p>
+              Ads that fit seamlessly in between the paragraphs of your pages for an enhanced reading experience.
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://support.google.com/adsense/answer/7320112?hl=en_GB">
+                Learn more
+              </a>
+            </p>
+
+            <InArticleAdsense
+              root-class="wrapper VueInArticleAdsense"
+              ins-class="ins-custom"
+              data-ad-client="ca-pub-5442972248172818"
+              data-ad-slot="7974047383" />
+          </div>
+        </article>
       </section>
 
       <section class="item">
-        <h3>In Feed Adsense</h3>
-        <h5>
-          Ads that flow naturally inside a list of articles or products on your site, offering a great user experience.
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://support.google.com/adsense/answer/7171765?hl=en_GB">
-            Learn more
-          </a>
-        </h5>
-        <InFeedAdsense
-          root-class="wrapper VueInFeedAdsense"
-          data-ad-layout-key="-fg+5n+6t-e7+r"
-          data-ad-client="ca-pub-5442972248172818"
-          data-ad-slot="2105028631" />
+        <article class="message is-dark">
+          <div class="message-header">
+            <p>In Feed Adsense</p>
+          </div>
+          <div class="message-body">
+            <p>
+              Ads that flow naturally inside a list of articles or products on your site, offering a great user experience.
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://support.google.com/adsense/answer/7171765?hl=en_GB">
+                Learn more
+              </a>
+            </p>
+
+            <InFeedAdsense
+              root-class="wrapper VueInFeedAdsense"
+              ins-class="ins-custom"
+              data-ad-layout-key="-fg+5n+6t-e7+r"
+              data-ad-client="ca-pub-5442972248172818"
+              data-ad-slot="2105028631" />
+          </div>
+        </article>
+
       </section>
     </div>
   </div>
@@ -113,7 +139,7 @@ h1{
   margin-bottom: 1.5em;
   font-size: 1.8rem;
 }
-h3{
+h2{
   text-align: center;
   font-size: 1.4rem;
 }

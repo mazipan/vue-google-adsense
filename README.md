@@ -1,4 +1,4 @@
-# :dollar: Vue Google Adsense
+# 💰 Vue Google Adsense
 
 > Vue.js Google Adsense Component with InFeed and InArticle Ads support
 
@@ -125,20 +125,10 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production demo with minification
+# build for production
 npm run build
-
-# build for plugin distribution file
-npm run pack
-
-# run build and pack
-npm run dist
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-Contact Me :
-
-[![Email](https://img.shields.io/badge/mazipanneh-Email-yellow.svg?maxAge=3600)](mailto:mazipanneh@gmail.com) [![Facebook](https://img.shields.io/badge/mazipanneh-Facebook-blue.svg?maxAge=3600)](https://facebook.com/mazipanneh) [![Twitter](https://img.shields.io/badge/Maz_Ipan-Twitter-55acee.svg?maxAge=3600)](https://twitter.com/Maz_Ipan)
+---
 
 Copyright © 2018 Built with ❤️ by Irfan Maulana

@@ -1,4 +1,3 @@
-const path = require('path')
 const { GenerateSW } = require('workbox-webpack-plugin')
 
 const configWB = new GenerateSW({
@@ -10,6 +9,9 @@ module.exports = {
   output: {
     dir: 'demo',
     publicUrl: '/vue-google-adsense/',
+  },
+  babel: {
+    jsx: 'vue'
   },
   configureWebpack(config) {
     config.plugins.push(configWB)

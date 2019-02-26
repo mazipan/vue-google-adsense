@@ -1,20 +1,20 @@
 {
   "name": "vue-google-adsense",
   "description": "Vue.js Google Adsense Component with InFeed and InArticle Ads support",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "author": "Irfan Maulana <mazipanneh@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=developmet ./node_modules/.bin/poi --serve",
-    "build-demo": "rimraf demo && cross-env NODE_ENV=production ./node_modules/.bin/poi --prod",
-    "build-lib": "rimraf dist && ./node_modules/.bin/bili --config bili.config.js",
-    "dist": "npm run build-demo && npm run build-lib",
+    "build:demo": "rimraf demo && cross-env NODE_ENV=production ./node_modules/.bin/poi --prod",
+    "build:lib": "rimraf dist && ./node_modules/.bin/bili --config bili.config.js",
+    "build": "npm run build:demo && npm run build:lib",
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
-    "lint-fix": "eslint --ext .js,.vue --ignore-path .eslintignore . --fix"
+    "lint:fix": "eslint --ext .js,.vue --ignore-path .eslintignore . --fix"
   },
-  "main": "dist/vue-google-adsense.min.js",
-  "module": "dist/vue-google-adsense.min.js",
+  "main": "dist/vue-google-adsense.cjs.min.js",
+  "module": "dist/vue-google-adsense.cjs.min.js",
   "unpkg": "dist/vue-google-adsense.umd.min.js",
   "jsdelivr": "dist/vue-google-adsense.umd.min.js",
   "files": [
@@ -41,17 +41,19 @@
     "vue google adsense"
   ],
   "dependencies": {
+    "vue": "^2.6.6",
     "vue-script2": "2.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
+    "@babel/core": "^7.2.2",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-syntax-jsx": "^7.2.0",
-    "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/preset-env": "^7.3.1",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0-beta.2",
+    "@vue/babel-preset-jsx": "^1.0.0-beta.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
-    "bili": "^4.4.0",
+    "bili": "4.2.5",
     "chalk": "^2.4.2",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
@@ -72,39 +74,12 @@
     "ora": "^3.1.0",
     "poi": "12.5.5",
     "rimraf": "^2.6.3",
-    "rollup-plugin-vue": "^4.7.2",
+    "rollup-plugin-vue": "4.7.1",
     "sass-loader": "^7.1.0",
     "shelljs": "^0.8.3",
     "style-loader": "0.23.1",
-    "vue": "^2.6.7",
     "vue-loader": "^15.6.4",
-    "vue-template-compiler": "^2.6.7",
+    "vue-template-compiler": "^2.6.6",
     "workbox-webpack-plugin": "^3.6.3"
-  },
-  "eslintIgnore": [
-    "test/*.js",
-    "dist/*.js",
-    "node_modules"
-  ],
-  "eslintConfig": {
-    "extends": [
-      "eslint:recommended",
-      "plugin:vue/recommended"
-    ]
-  },
-  "jest": {
-    "mapCoverage": true,
-    "coverageDirectory": "test/coverage",
-    "moduleNameMapper": {
-      "^vue$": "vue/dist/vue.common.js"
-    },
-    "moduleFileExtensions": [
-      "js",
-      "vue"
-    ],
-    "transform": {
-      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
-      ".*\\.(vue)$": "<rootDir>/node_modules/jest-vue"
-    }
   }
 }
