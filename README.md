@@ -40,6 +40,22 @@ Vue.use(Ads.InArticleAdsense)
 Vue.use(Ads.InFeedAdsense)
 ```
 
+### Use partial import
+
+Import only `AdsType` you need
+
+```javascript
+import Adsense from 'vue-google-adsense/Adsense.cjs.min.js'
+import InArticleAdsense from 'vue-google-adsense/InArticleAdsense.cjs.min.js'
+import InFeedAdsense from 'vue-google-adsense/InFeedAdsense.cjs.min.js'
+
+Vue.use(require('vue-script2'))
+
+Vue.use(Adsense)
+Vue.use(InArticleAdsense)
+Vue.use(InFeedAdsense)
+```
+
 ### Usage in Nuxt.js
 
 Create file `plugins/vue-google-adsense.js`, with code :

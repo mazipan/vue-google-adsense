@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Ads from './vue-google-adsense.js'
+import Ads from './VueGoogleAdsense.js'
 
 Vue.use(require('vue-script2'))
 

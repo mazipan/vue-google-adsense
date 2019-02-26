@@ -1,7 +1,7 @@
 {
   "name": "vue-google-adsense",
   "description": "Vue.js Google Adsense Component with InFeed and InArticle Ads support",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "author": "Irfan Maulana <mazipanneh@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -13,10 +13,10 @@
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
     "lint:fix": "eslint --ext .js,.vue --ignore-path .eslintignore . --fix"
   },
-  "main": "dist/vue-google-adsense.cjs.min.js",
-  "module": "dist/vue-google-adsense.cjs.min.js",
-  "unpkg": "dist/vue-google-adsense.umd.min.js",
-  "jsdelivr": "dist/vue-google-adsense.umd.min.js",
+  "main": "dist/VueGoogleAdsense.cjs.min.js",
+  "module": "dist/VueGoogleAdsense.cjs.min.js",
+  "unpkg": "dist/VueGoogleAdsense.umd.min.js",
+  "jsdelivr": "dist/VueGoogleAdsense.umd.min.js",
   "files": [
     "dist"
   ],

@@ -26,7 +26,6 @@
     <div
       class="container is-fluid"
       style="margin-top:2em; margin-bottom:2em;">
-
       <section class="item">
         <article class="message is-primary">
           <div class="message-header">
@@ -102,7 +101,6 @@
               data-ad-slot="2105028631" />
           </div>
         </article>
-
       </section>
     </div>
   </div>
