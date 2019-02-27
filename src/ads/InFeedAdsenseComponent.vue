@@ -28,12 +28,7 @@ import props from '../utils/props'
 
 export default {
   name: 'InFeedAdsense',
-  props: Object.assign({}, props, {
-    dataAdLayoutKey: {
-      type: String,
-      default: '-fg+5n+6t-e7+r'
-    }
-  }),
+  props,
   data () {
     return {
       ADS_SCRIPT: constant.ADS_SCRIPT

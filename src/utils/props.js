@@ -19,6 +19,10 @@ export default {
     type: String,
     default: ''
   },
+  dataAdLayoutKey: {
+    type: String,
+    default: '-fg+5n+6t-e7+r'
+  },
   dataAdTest: {
     type: String,
     default: ''
