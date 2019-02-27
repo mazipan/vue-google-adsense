@@ -18,7 +18,7 @@ const extractHTML = new HtmlWebpackPlugin({
     removeEmptyAttributes: true
   },
   environment: process.env.NODE_ENV
-});
+})
 
 module.exports = {
   entry: {
