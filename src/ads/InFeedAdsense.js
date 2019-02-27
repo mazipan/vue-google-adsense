@@ -13,7 +13,7 @@ const InFeedAdsense = {
       render () {
         return (
           <div class={this.rootClass}>
-            <script2 type="text/javascript" async src={constant.ADS_SCRIPT} />
+            <script2 type="text/javascript" async="true" src={constant.ADS_SCRIPT}></script2>
             <ins
               class={'adsbygoogle ' + this.insClass}
               style="display:block;"
