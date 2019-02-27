@@ -10,7 +10,7 @@ const InFeedAdsense = {
           default: '-fg+5n+6t-e7+r'
         }
       }),
-      render: function (h) {
+      render() {
         return (
           <div class={this.rootClass}>
             <script2 type="text/javascript" async src={constant.ADS_SCRIPT} />
