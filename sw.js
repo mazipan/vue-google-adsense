@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vue-google-adsenseprecache-manifest.d5a618916b7b5044f441e3884412f7ae.js"
+  "/vue-google-adsense/precache-manifest.8385a692c5feda39b1bed18dfebc561a.js"
 );
 
 /**
