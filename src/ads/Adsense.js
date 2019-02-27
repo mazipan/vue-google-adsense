@@ -10,8 +10,8 @@ const Adsense = {
           <div class={this.rootClass}>
             <script2 type="text/javascript" async src={constant.ADS_SCRIPT} />
             <ins
-              class={this.insClass + ' adsbygoogle'}
-              style="display:block"
+              class={'adsbygoogle ' + this.insClass}
+              style="display:block;"
               data-ad-client={this.dataAdClient}
               data-ad-slot={this.dataAdSlot}
               data-ad-test={this.dataAdTest}
@@ -19,7 +19,7 @@ const Adsense = {
             />
             {this.isNonPersonalizedAds && (
               <script2 v-if="isNonPersonalizedAds">
-                (adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;
+              (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
               </script2>
             )}
             <script2>

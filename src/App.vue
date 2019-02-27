@@ -148,4 +148,7 @@ h2{
     text-align: center;
     margin: 0 auto;
 }
+.wrapper{
+  height: 100px;
+}
 </style>
