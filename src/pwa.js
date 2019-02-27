@@ -4,7 +4,7 @@ if ('serviceWorker' in navigator) {
       .register('/vue-google-adsense/sw.js')
       .then(registration => {})
       .catch(registrationError => {
-        console.log('SW registration failed: ', registrationError);
-      });
-  });
+        console.log('SW registration failed: ', registrationError)
+      })
+  })
 }

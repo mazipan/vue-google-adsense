@@ -1,7 +1,7 @@
 module.exports = {
   output: {
     format: [
-      'cjs-min',
+      'cjs',
       'umd-min'
     ],
     moduleName: 'VueGoogleAdsense'

@@ -5,7 +5,7 @@ const Adsense = {
   install: Vue => {
     Vue.component('Adsense', {
       props,
-      render() {
+      render () {
         return (
           <div class={this.rootClass}>
             <script2 type="text/javascript" async src={constant.ADS_SCRIPT} />

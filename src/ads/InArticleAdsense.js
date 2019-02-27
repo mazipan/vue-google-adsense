@@ -5,7 +5,7 @@ const InArticleAdsense = {
   install: Vue => {
     Vue.component('InArticleAdsense', {
       props,
-      render() {
+      render () {
         return (
           <div class={this.rootClass}>
             <script2 type="text/javascript" async src={constant.ADS_SCRIPT} />
