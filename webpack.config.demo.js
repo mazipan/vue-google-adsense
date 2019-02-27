@@ -90,7 +90,8 @@ module.exports = {
     hints: false
   },
   plugins: [
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    extractHTML
   ]
 }
 
@@ -103,7 +104,6 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
-    extractHTML,
     new GenerateSW({
       swDest: 'sw.js'
     })

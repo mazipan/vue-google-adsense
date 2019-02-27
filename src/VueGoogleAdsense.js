@@ -1,6 +1,6 @@
-import Adsense from './ads/Adsense'
-import InArticleAdsense from './ads/InArticleAdsense'
-import InFeedAdsense from './ads/InFeedAdsense'
+import Adsense from './ads/Adsense.js'
+import InArticleAdsense from './ads/InArticleAdsense.js'
+import InFeedAdsense from './ads/InFeedAdsense.js'
 
 export default {
   Adsense,
