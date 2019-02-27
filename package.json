@@ -6,12 +6,12 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-		"dev:webpack": "cross-env NODE_ENV=development webpack-dev-server --hot --color --open --config webpack.config.demo.js",
+    "dev:webpack": "cross-env NODE_ENV=development webpack-dev-server --hot --color --open --config webpack.config.demo.js",
     "dev": "cross-env NODE_ENV=developmet ./node_modules/.bin/poi --serve",
     "build:demo": "rimraf demo && cross-env NODE_ENV=production ./node_modules/.bin/poi --prod",
     "build:lib": "rimraf dist && ./node_modules/.bin/bili --config bili.config.js",
-    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.js",
-		"build:webpack-demo": "cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.config.demo.js",
+    "build:webpack": "rimraf dist && cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "build:webpack-demo": "rimraf demo && cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.config.demo.js",
     "build": "npm run build:demo && npm run build:lib",
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
     "lint:fix": "eslint --ext .js,.vue --ignore-path .eslintignore . --fix"
@@ -58,6 +58,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.2",
+    "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.11.0",
     "poi": "12.5.5",
     "rimraf": "^2.6.3",
@@ -66,10 +67,10 @@
     "style-loader": "0.23.1",
     "vue-loader": "^15.6.4",
     "vue-template-compiler": "^2.6.7",
-		"webpack": "^4.29.5",
-		"webpack-cli": "^3.2.3",
-		"webpack-dev-server": "^3.2.1",
-		"webpack-serve": "^2.0.3",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-serve": "^2.0.3",
     "workbox-webpack-plugin": "^3.6.3"
   }
 }

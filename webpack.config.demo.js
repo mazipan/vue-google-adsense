@@ -2,6 +2,23 @@ var path = require('path')
 var webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const { GenerateSW } = require('workbox-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
+const extractHTML = new HtmlWebpackPlugin({
+  title: 'History Search',
+  filename: 'index.html',
+  inject: true,
+  template: path.join(__dirname, '/src/index.ejs'),
+  minify: {
+    removeAttributeQuotes: true,
+    collapseWhitespace: true,
+    html5: true,
+    minifyCSS: true,
+    removeComments: true,
+    removeEmptyAttributes: true
+  },
+  environment: process.env.NODE_ENV
+});
 
 module.exports = {
   entry: {
@@ -10,8 +27,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'demo'),
     publicPath: '/vue-google-adsense',
-    filename: 'bundle.js',
-    jsonpFunction: 'WebpackJsonp'
+    filename: '[name].[hash].js'
   },
   mode: process.env.NODE_ENV,
   resolve: {
@@ -73,7 +89,6 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map',
   plugins: [
     new VueLoaderPlugin()
   ]
@@ -88,6 +103,7 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
+    extractHTML,
     new GenerateSW({
       swDest: 'sw.js'
     })
