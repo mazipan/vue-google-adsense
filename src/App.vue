@@ -44,6 +44,7 @@
             </p>
 
             <Adsense
+              style="height: 150px;"
               root-class="wrapper VueAdsense"
               ins-class="ins-custom"
               data-ad-client="ca-pub-5442972248172818"
@@ -69,6 +70,7 @@
             </p>
 
             <InArticleAdsense
+              style="height: 200px;"
               root-class="wrapper VueInArticleAdsense"
               ins-class="ins-custom"
               data-ad-client="ca-pub-5442972248172818"
@@ -94,6 +96,7 @@
             </p>
 
             <InFeedAdsense
+              style="height: 300px;"
               root-class="wrapper VueInFeedAdsense"
               ins-class="ins-custom"
               data-ad-layout-key="-fg+5n+6t-e7+r"
@@ -147,8 +150,5 @@ h2{
     display: block;
     text-align: center;
     margin: 0 auto;
-}
-.wrapper{
-  height: 100px;
 }
 </style>

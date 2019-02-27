@@ -26,7 +26,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'demo'),
-    publicPath: '/vue-google-adsense',
+    publicPath: '/vue-google-adsense/',
     filename: '[name].[hash].js'
   },
   mode: process.env.NODE_ENV,
