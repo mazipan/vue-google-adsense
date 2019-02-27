@@ -45,9 +45,9 @@ Vue.use(Ads.InFeedAdsense)
 Import only `AdsType` you need
 
 ```javascript
-import Adsense from 'vue-google-adsense/Adsense.cjs.min.js'
-import InArticleAdsense from 'vue-google-adsense/InArticleAdsense.cjs.min.js'
-import InFeedAdsense from 'vue-google-adsense/InFeedAdsense.cjs.min.js'
+import Adsense from 'vue-google-adsense/dist/Adsense.min.js'
+import InArticleAdsense from 'vue-google-adsense/dist/InArticleAdsense.min.js'
+import InFeedAdsense from 'vue-google-adsense/dist/InFeedAdsense.min.js'
 
 Vue.use(require('vue-script2'))
 

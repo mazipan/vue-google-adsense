@@ -6,12 +6,15 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   entry: {
-    app: './src/VueGoogleAdsense.js'
+    VueGoogleAdsense: './src/VueGoogleAdsense.js',
+    Adsense: './src/ads/Adsense.js',
+    InArticleAdsense: './src/ads/InArticleAdsense.js',
+    InFeedAdsense: './src/ads/InFeedAdsense.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/dist',
-    filename: 'VueGoogleAdsense.js',
+    filename: '[name].min.js',
     library: 'VueGoogleAdsense',
     libraryTarget: 'umd',
     umdNamedDefine: true,
