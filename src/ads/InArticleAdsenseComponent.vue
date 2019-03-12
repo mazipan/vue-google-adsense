@@ -9,7 +9,7 @@
       class="adsbygoogle"
       style="display:block; text-align:center;"
       data-ad-layout="in-article"
-      data-ad-format="fluid"
+      :data-ad-format="dataAdFormat"
       :data-ad-client="dataAdClient"
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest" />
@@ -28,7 +28,12 @@ import props from '../utils/props'
 
 export default {
   name: 'InArticleAdsense',
-  props,
+  props: Object.assign(props, {
+    dataAdFormat: {
+      type: String,
+      default: 'fluid'
+    }
+  }),
   data () {
     return {
       ADS_SCRIPT: constant.ADS_SCRIPT

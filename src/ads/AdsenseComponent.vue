@@ -11,7 +11,7 @@
       :data-ad-client="dataAdClient"
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest"
-      data-ad-format="auto" />
+      :data-ad-format="dataAdFormat" />
     <script2 type="text/javascript" v-if="isNonPersonalizedAds">
       (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
     </script2>

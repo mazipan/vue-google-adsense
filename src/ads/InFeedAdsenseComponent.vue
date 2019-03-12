@@ -8,7 +8,7 @@
       :class="insClass"
       class="adsbygoogle"
       style="display:block;"
-      data-ad-format="fluid"
+      :data-ad-format="dataAdFormat"
       :data-ad-layout-key="dataAdLayoutKey"
       :data-ad-client="dataAdClient"
       :data-ad-slot="dataAdSlot"
@@ -28,7 +28,12 @@ import props from '../utils/props'
 
 export default {
   name: 'InFeedAdsense',
-  props,
+  props: Object.assign(props, {
+    dataAdFormat: {
+      type: String,
+      default: 'fluid'
+    }
+  }),
   data () {
     return {
       ADS_SCRIPT: constant.ADS_SCRIPT

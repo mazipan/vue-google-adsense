@@ -26,5 +26,9 @@ export default {
   dataAdTest: {
     type: String,
     default: ''
+  },
+  dataAdFormat: {
+    type: String,
+    default: 'auto'
   }
 }

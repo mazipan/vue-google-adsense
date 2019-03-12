@@ -116,11 +116,12 @@ VueInFeedAdsense Template :
 | Attribute          | Type        |Default       | Description                          	  |
 |------------------- |------------ |--------------|---------------------------------------	|
 | root-class         | String      | `adswrapper` | Class for fill in wrapper block          |
-| ins-class          | String     | `empty`      | Class for fill in `ins` tag              |
+| ins-class          | String      | `empty`      | Class for fill in `ins` tag              |
 | data-ad-client     | String      | `empty`      | Attribute `data-ad-client` from adsense |
 | data-ad-slot       | String      | `empty`      | Attribute `data-ad-slot` from adsense   |
 | data-ad-layout-key | String      | `empty`      | Attribute `data-ad-layout-key` from adsense |
 | data-ad-test       | String      | `empty`      | Attribute `data-ad-test` from adsense |
+| data-ad-format     | String      | `auto`, `fluid` for InFeed and InArticle Ads | Attribute `data-ad-format` from adsense |
 | is-non-personalized-ads | Boolean| `false`      | Props for request `non-personalized` ads, [read more](https://support.google.com/adsense/answer/9042142?hl=en&ref_topic=7670012) |
 
 ## :metal: Who is using this library
