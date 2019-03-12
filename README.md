@@ -1,4 +1,5 @@
 # 💰 Vue Google Adsense
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 > Vue.js Google Adsense Component with InFeed and InArticle Ads support
 
@@ -149,3 +150,15 @@ npm run build
 ---
 
 Copyright © 2018 Built with ❤️ by Irfan Maulana
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars0.githubusercontent.com/u/7221389?v=4" width="100px;" alt="Irfan Maulana"/><br /><sub><b>Irfan Maulana</b></sub>](https://www.mazipan.xyz/)<br />[💻](https://github.com/mazipan/vue-google-adsense/commits?author=mazipan "Code") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
