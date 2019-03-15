@@ -25,10 +25,11 @@
 <script>
 import constant from '../utils/constant'
 import props from '../utils/props'
+import assign from '../utils/assign'
 
 export default {
   name: 'InArticleAdsense',
-  props: Object.assign(props, {
+  props: assign.__assign(props, {
     dataAdFormat: {
       type: String,
       default: 'fluid'
