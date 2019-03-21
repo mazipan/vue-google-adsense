@@ -13,10 +13,12 @@
       :data-ad-client="dataAdClient"
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest" />
-    <script2 type="text/javascript" v-if="isNonPersonalizedAds">
+    <script2
+      v-if="isNonPersonalizedAds"
+      type="text/javascript">
       (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
     </script2>
-    <script2 type="text/javascript" >
+    <script2 type="text/javascript">
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script2>
   </div>
