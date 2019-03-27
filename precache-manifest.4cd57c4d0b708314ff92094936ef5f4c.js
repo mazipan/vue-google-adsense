@@ -1,9 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05eaf9554000ab17a36c43a8b3a51319",
+    "revision": "4ff93d8c1648025409bc638d51116e1c",
     "url": "/vue-google-adsense/index.html"
   },
   {
-    "url": "/vue-google-adsense/app.c32b934675a4b4769beb.js"
+    "url": "/vue-google-adsense/app.0645965285e5d513f2eb.js"
   }
 ]);
