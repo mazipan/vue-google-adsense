@@ -44,7 +44,7 @@
             </p>
 
             <Adsense
-              style="height: 150px;"
+              style="height: 450px;"
               root-class="wrapper VueAdsense"
               ins-class="ins-custom"
               data-ad-client="ca-pub-5442972248172818"
