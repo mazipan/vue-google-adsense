@@ -33,8 +33,8 @@
           </div>
           <div class="message-body">
             <p>
-              A simple way to get ads on your page.
-              Choose the size, placement and style you want to display.
+              <b>A simple way to get ads on your page.
+              Choose the size, placement and style you want to display.</b>
               <a
                 rel="noreferrer"
                 target="_blank"
@@ -42,6 +42,7 @@
                 Learn more
               </a>
             </p>
+            <br><br><br>
 
             <Adsense
               style="height: 450px;"
@@ -60,7 +61,7 @@
           </div>
           <div class="message-body">
             <p>
-              Ads that fit seamlessly in between the paragraphs of your pages for an enhanced reading experience.
+              <b>Ads that fit seamlessly in between the paragraphs of your pages for an enhanced reading experience.</b>
               <a
                 rel="noreferrer"
                 target="_blank"
@@ -68,8 +69,9 @@
                 Learn more
               </a>
             </p>
+            <br><br><br>
             
-            <article class="tile notification">
+            <article class="tile notification is-success">
               <div class="content">
                 <p class="title">Tall tile</p>
                 <p class="subtitle">With even more content</p>
@@ -99,7 +101,7 @@
           </div>
           <div class="message-body">
             <p>
-              Ads that flow naturally inside a list of articles or products on your site, offering a great user experience.
+              <b>Ads that flow naturally inside a list of articles or products on your site, offering a great user experience.</b>
               <a
                 rel="noreferrer"
                 target="_blank"
@@ -107,6 +109,7 @@
                 Learn more
               </a>
             </p>
+            <br><br><br>
             
             <div class="card">
               <div class="card-content">
@@ -131,14 +134,20 @@
                 </div>
               </div>
             </div>
-
-            <InFeedAdsense
-              style="height: 300px;"
-              root-class="wrapper VueInFeedAdsense"
-              ins-class="ins-custom"
-              data-ad-layout-key="-fg+5n+6t-e7+r"
-              data-ad-client="ca-pub-5442972248172818"
-              data-ad-slot="2105028631" />
+            
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <InFeedAdsense
+                    style="height: 300px;margin: 1em 0;"
+                    root-class="wrapper VueInFeedAdsense"
+                    ins-class="ins-custom"
+                    data-ad-layout-key="-fg+5n+6t-e7+r"
+                    data-ad-client="ca-pub-5442972248172818"
+                    data-ad-slot="2105028631" />
+                </div>
+              </div>
+            </div>
               
             <div class="card">
               <div class="card-content">
