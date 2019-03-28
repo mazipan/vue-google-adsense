@@ -19,7 +19,7 @@
             class="button is-primary is-inverted is-outlined">
             Fork in Github
           </a>
-          <br>
+          <br><br>
           <a href="https://www.npmjs.com/package/vue-google-adsense" target="_blank" rel="noopener noreferer">
             <img alt="NPM Version" src="https://img.shields.io/npm/v/vue-google-adsense.svg">
           </a>
