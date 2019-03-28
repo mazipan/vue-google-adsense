@@ -10,6 +10,7 @@
     "build:demo": "rimraf demo && cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.config.demo.js",
     "build:lib": "rimraf dist && cross-env NODE_ENV=production webpack --config webpack.config.js",
     "build": "npm run build:demo && npm run build:lib",
+    "publish-demo": "node ./publish-demo.js",
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
     "lint:fix": "eslint --ext .js,.vue --ignore-path .eslintignore . --fix"
   },
@@ -61,6 +62,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.2",
+    "gh-pages": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.11.0",
     "rimraf": "^2.6.3",
