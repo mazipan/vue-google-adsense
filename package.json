@@ -37,7 +37,6 @@
     "vue google adsense"
   ],
   "dependencies": {
-    "bulma-dracula": "^1.0.2",
     "vue": "^2.6.7",
     "vue-script2": "2.0.3"
   },
@@ -51,6 +50,7 @@
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "babel-preset-vue": "^2.0.2",
+    "bulma-dracula": "^1.0.2",
     "compression-webpack-plugin": "^2.0.0",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
