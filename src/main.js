@@ -10,7 +10,7 @@ Vue.use(Ads.InFeedAdsense)
 
 /* global process */
 if (process.env.NODE_ENV === 'production') {
-  require('./pwa')
+  // require('./pwa')
 } else {
   Vue.config.devtools = true
 }

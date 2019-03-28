@@ -19,6 +19,13 @@
             class="button is-primary is-inverted is-outlined">
             Fork in Github
           </a>
+          <br>
+          <a href="https://www.npmjs.com/package/vue-google-adsense" target="_blank" rel="noopener noreferer">
+            <img alt="NPM Version" src="https://img.shields.io/npm/v/vue-google-adsense.svg">
+          </a>
+          <a href="https://github.com/mazipan/vue-google-adsense" target="_blank" rel="noopener noreferer">
+            <img alt="GitHub Stars" src="https://img.shields.io/github/stars/mazipan/vue-google-adsense.svg?style=social">
+          </a>
         </div>
       </div>
     </section>
@@ -34,7 +41,7 @@
           <div class="message-body">
             <p>
               <b>A simple way to get ads on your page.
-              Choose the size, placement and style you want to display.</b>
+                Choose the size, placement and style you want to display.</b>
               <a
                 rel="noreferrer"
                 target="_blank"
@@ -70,21 +77,25 @@
               </a>
             </p>
             <br><br><br>
-            
+
             <article class="tile notification is-success">
               <div class="content">
-                <p class="title">Tall tile</p>
-                <p class="subtitle">With even more content</p>
+                <p class="title">
+                  Tall tile
+                </p>
+                <p class="subtitle">
+                  With even more content
+                </p>
                 <div class="content">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-                  
+
                   <InArticleAdsense
                     style="height: 200px;"
                     root-class="wrapper VueInArticleAdsense"
                     ins-class="ins-custom"
                     data-ad-client="ca-pub-5442972248172818"
                     data-ad-slot="7974047383" />
-                    
+
                   <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
                   <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
                 </div>
@@ -110,7 +121,7 @@
               </a>
             </p>
             <br><br><br>
-            
+
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -122,7 +133,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -134,7 +145,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -148,7 +159,7 @@
                 </div>
               </div>
             </div>
-              
+
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -160,7 +171,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -172,7 +183,6 @@
                 </div>
               </div>
             </div>
-            
           </div>
         </article>
       </section>
@@ -193,13 +203,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "~bulma-dracula/src/bulma-dracula.scss";
+
 .wrapper{
   width: 100%;
 }
 </style>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .hero.is-primary {
   background: #4776e6;
   background: -webkit-linear-gradient(left, #8e54e9, #4776e6);
@@ -221,5 +233,8 @@ h2{
     display: block;
     text-align: center;
     margin: 0 auto;
+}
+.card{
+  color: #282a36 !important;
 }
 </style>

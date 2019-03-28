@@ -36,6 +36,7 @@
     "vue google adsense"
   ],
   "dependencies": {
+    "bulma-dracula": "^1.0.2",
     "vue": "^2.6.7",
     "vue-script2": "2.0.3"
   },

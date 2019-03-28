@@ -84,7 +84,7 @@ module.exports = {
     }),
     new VueLoaderPlugin(),
     new webpack.BannerPlugin({
-      banner: `VueGoogleAdsense v.${npm.version}`
+      banner: `VueGoogleAdsense v${npm.version} by Irfan Maulana <github.com/mazipan>`
     }),
     new CompressionPlugin({
       algorithm: 'gzip'

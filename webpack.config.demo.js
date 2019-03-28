@@ -1,7 +1,6 @@
 var path = require('path')
 var webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
-const { GenerateSW } = require('workbox-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const extractHTML = new HtmlWebpackPlugin({
@@ -103,9 +102,6 @@ if (process.env.NODE_ENV === 'production') {
       'process.env': {
         NODE_ENV: '"production"'
       }
-    }),
-    new GenerateSW({
-      swDest: 'sw.js'
     })
   ])
 }
