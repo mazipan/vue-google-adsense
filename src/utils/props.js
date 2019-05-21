@@ -30,5 +30,9 @@ export default {
   dataAdFormat: {
     type: String,
     default: 'auto'
+  },
+  dataFullWidthResponsive: {
+    type: Boolean,
+    default: false
   }
 }

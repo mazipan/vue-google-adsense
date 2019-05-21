@@ -12,7 +12,8 @@
       :data-ad-format="dataAdFormat"
       :data-ad-client="dataAdClient"
       :data-ad-slot="dataAdSlot"
-      :data-ad-test="dataAdTest" />
+      :data-ad-test="dataAdTest"
+      :data-full-width-responsive="dataFullWidthResponsive" />
     <script2
       v-if="isNonPersonalizedAds"
       type="text/javascript">
