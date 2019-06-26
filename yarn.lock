@@ -7400,10 +7400,10 @@ vue-loader@^15.7.0:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-script2@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/vue-script2/-/vue-script2-2.0.3.tgz#74a53a51cc72eeb0c8935f40f0155968a94a2d7c"
-  integrity sha512-sGsFbqCIZDbPq140X1p8T6Y72MoCtkFpQ7CfhknZLqDZxMGWavFqIY/5YsnhqxxatWnYy0us/IoHSDr5l2JZzQ==
+vue-script2@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vue-script2/-/vue-script2-2.1.0.tgz#8e480dc6052c8cdf2aa0ec112efc80f31ddc3522"
+  integrity sha512-EDUOjQBFvhkJXwmWuUR9ijlF7/4JtmvjXSKaHSa/LNTMy9ltjgKgYB68aqlxgq8ORdSxowd5eo24P1syjZJnBA==
 
 vue-style-loader@^4.1.0:
   version "4.1.2"
