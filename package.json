@@ -38,7 +38,7 @@
   ],
   "dependencies": {
     "vue": "^2.6.10",
-    "vue-script2": "2.0.3"
+    "vue-script2": "2.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
