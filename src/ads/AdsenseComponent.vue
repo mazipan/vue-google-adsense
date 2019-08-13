@@ -16,10 +16,16 @@
     <script2
       v-if="isNonPersonalizedAds"
       type="text/javascript">
-      (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "{{ dataAdClient }}",
+        enable_page_level_ads: true
+      }).requestNonPersonalizedAds = 1;
     </script2>
     <script2 type="text/javascript">
-      (adsbygoogle = window.adsbygoogle || []).push({});
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "{{ dataAdClient }}",
+        enable_page_level_ads: true
+      });
     </script2>
   </div>
 </template>
