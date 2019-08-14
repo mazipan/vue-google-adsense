@@ -129,10 +129,12 @@ VueInFeedAdsense Template :
 
 Already used in production for these project :
 
++ [Blog-2.0](https://github.com/mazipan/blog-2.0)
 + [Explore-Github](https:///mazipan.github.io/explore-github)
 + [Fire Jak](https://mazipan.github.io/FireJak)
 + [Rumah Sakit Jakarta](https://mazipan.github.io/RumahSakitJakarta)
 + [ChuckNorris](https://mazipan.github.io/chucknorris)
++ Etc... // You can add the list here via pull request
 
 ## 🏃 Development
 
