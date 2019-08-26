@@ -16,21 +16,20 @@
     <script2
       v-if="isNonPersonalizedAds"
       type="text/javascript">
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "{{ dataAdClient }}",
-        enable_page_level_ads: true
-      }).requestNonPersonalizedAds = 1;
+      (adsbygoogle = window.adsbygoogle || []).push({}).requestNonPersonalizedAds = 1;
     </script2>
     <script2 type="text/javascript">
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "{{ dataAdClient }}",
-        enable_page_level_ads: true
-      });
+      (adsbygoogle = window.adsbygoogle || []).push({});
     </script2>
   </div>
 </template>
 
 <script>
+
+      // (adsbygoogle = window.adsbygoogle || []).push({
+      //   google_ad_client: "{{ dataAdClient }}",
+      //   enable_page_level_ads: true
+      // }).requestNonPersonalizedAds = 1;
 import constant from '../utils/constant'
 import props from '../utils/props'
 
