@@ -110,6 +110,16 @@ VueInFeedAdsense Template :
     data-ad-slot="1234567890">
 </InFeedAdsense>
 ```
+### Auto Ads Usage
+
+```js
+import Vue from 'vue'
+import Ads from 'vue-google-adsense'
+
+Vue.use(require('vue-script2'))
+
+Vue.use(Ads.AutoAdsense, { adClient: 'YOUR_GOOGLE_AD_CLIENT' })
+```
 
 ## :gift: Available Props
 

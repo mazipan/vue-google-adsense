@@ -10,6 +10,7 @@ module.exports = {
     Adsense: './src/ads/Adsense.js',
     InArticleAdsense: './src/ads/InArticleAdsense.js',
     InFeedAdsense: './src/ads/InFeedAdsense.js',
+    AutoAdsense: './src/ads/AutoAdsense.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
