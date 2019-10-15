@@ -144,6 +144,7 @@ Already used in production for these project :
 + [Fire Jak](https://mazipan.github.io/FireJak)
 + [Rumah Sakit Jakarta](https://mazipan.github.io/RumahSakitJakarta)
 + [ChuckNorris](https://mazipan.github.io/chucknorris)
++ [Nuxt blog - Surmon.me](https://github.com/surmon-china/surmon.me)
 + Etc... // You can add the list here via pull request
 
 ## 🏃 Development
