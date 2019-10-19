@@ -7,7 +7,7 @@
     <ins
       :class="insClass"
       class="adsbygoogle"
-      style="display:block;"
+      :style="insStyle"
       :data-ad-client="dataAdClient"
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest"

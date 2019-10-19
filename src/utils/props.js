@@ -7,6 +7,10 @@ export default {
     type: String,
     default: ''
   },
+  insStyle: {
+    type: String,
+    default: 'display:block;'
+  },
   isNonPersonalizedAds: {
     type: Boolean,
     default: false

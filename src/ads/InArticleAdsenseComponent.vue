@@ -7,7 +7,7 @@
     <ins
       :class="insClass"
       class="adsbygoogle"
-      style="display:block; text-align:center;"
+      :style="insStyle"
       data-ad-layout="in-article"
       :data-ad-format="dataAdFormat"
       :data-ad-client="dataAdClient"
