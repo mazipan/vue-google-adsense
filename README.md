@@ -127,6 +127,7 @@ Vue.use(Ads.AutoAdsense, { adClient: 'YOUR_GOOGLE_AD_CLIENT' })
 |------------------- |------------ |--------------|---------------------------------------	|
 | root-class         | String      | `adswrapper` | Class for fill in wrapper block          |
 | ins-class          | String      | `empty`      | Class for fill in `ins` tag              |
+| ins-style          | String      | `display:block;` | Style for fill in `ins` tag          |
 | data-ad-client     | String      | `empty`      | Attribute `data-ad-client` from adsense |
 | data-ad-slot       | String      | `empty`      | Attribute `data-ad-slot` from adsense   |
 | data-ad-layout-key | String      | `empty`      | Attribute `data-ad-layout-key` from adsense |
