@@ -175,7 +175,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
   <tr>
     <td align="center"><a href="https://www.mazipan.xyz/"><img src="https://avatars0.githubusercontent.com/u/7221389?v=4" width="100px;" alt="Irfan Maulana"/><br /><sub><b>Irfan Maulana</b></sub></a><br /><a href="https://github.com/mazipan/vue-google-adsense/commits?author=mazipan" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/codynguyen"><img src="https://avatars3.githubusercontent.com/u/252787?v=4" width="100px;" alt="Cody Nguyen"/><br /><sub><b>Cody Nguyen</b></sub></a><br /><a href="https://github.com/mazipan/vue-google-adsense/commits?author=codynguyen" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/vesper8"><img src="https://avatars1.githubusercontent.com/u/816028?v=4" width="100px;" alt="C-Bass"/><br /><sub><b>C-Bass</b></sub></a><br /><a href="https://github.com/mazipan/vue-google-adsense/commits?author=vesper8" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/vesper8"><img src="https://avatars1.githubusercontent.com/u/816028?v=4" width="100px;" alt="C-Bass"/><br /><sub><b>C-Bass</b></sub></a><br /><a href="https://github.com/mazipan/vue-google-adsense/commits?author=vesper8" title="Code">💻</a> <a href="https://github.com/mazipan/vue-google-adsense/commits?author=vesper8" title="Documentation">📖</a></td>
   </tr>
 </table>
 
