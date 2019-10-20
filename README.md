@@ -1,6 +1,6 @@
 # 💰 Vue Google Adsense
 
-![License](https://img.shields.io/github/license/mazipan/vue-google-adsense.svg?maxAge=3600) ![minified](https://badgen.net/bundlephobia/minzip/vue-google-adsense) [![Travis](https://img.shields.io/travis/mazipan/vue-google-adsense.svg)](https://travis-ci.org/mazipan/vue-google-adsense) [![version](https://img.shields.io/npm/v/vue-google-adsense.svg?maxAge=60)](https://www.npmjs.com/package/vue-google-adsense) ![downloads](https://img.shields.io/npm/dt/vue-google-adsense.svg?maxAge=3600) [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors) [![Greenkeeper badge](https://badges.greenkeeper.io/mazipan/vue-google-adsense.svg)](https://greenkeeper.io/)
+![License](https://img.shields.io/github/license/mazipan/vue-google-adsense.svg?maxAge=3600) ![minified](https://badgen.net/bundlephobia/minzip/vue-google-adsense) [![Travis](https://img.shields.io/travis/mazipan/vue-google-adsense.svg)](https://travis-ci.org/mazipan/vue-google-adsense) [![version](https://img.shields.io/npm/v/vue-google-adsense.svg?maxAge=60)](https://www.npmjs.com/package/vue-google-adsense) ![downloads](https://img.shields.io/npm/dt/vue-google-adsense.svg?maxAge=3600) [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg)](#contributors)
 
 > Vue.js Google Adsense Component with InFeed and InArticle Ads support
 
@@ -176,9 +176,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
     <td align="center"><a href="https://www.mazipan.xyz/"><img src="https://avatars0.githubusercontent.com/u/7221389?v=4" width="100px;" alt="Irfan Maulana"/><br /><sub><b>Irfan Maulana</b></sub></a><br /><a href="https://github.com/mazipan/vue-google-adsense/commits?author=mazipan" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/codynguyen"><img src="https://avatars3.githubusercontent.com/u/252787?v=4" width="100px;" alt="Cody Nguyen"/><br /><sub><b>Cody Nguyen</b></sub></a><br /><a href="https://github.com/mazipan/vue-google-adsense/commits?author=codynguyen" title="Code">💻</a></td>
 
-    <td align="center"><a href="https://github.com/vesper8"><img src="https://avatars1.githubusercontent.com/u/816028?v=4" width="100px;" alt="C-Bass"/><br /><sub><b>C-Bass</b></sub></a><br /><a href="https://github.com/mazipan/vue-google-adsense/commits?author=vesper8" title="Code">💻</a> <a href="https://github.com/mazipan/vue-google-adsense/commits?author=vesper8" title="Documentation">📖</a></td>
+<td align="center"><a href="https://github.com/vesper8"><img src="https://avatars1.githubusercontent.com/u/816028?v=4" width="100px;" alt="C-Bass"/><br /><sub><b>C-Bass</b></sub></a><br /><a href="https://github.com/mazipan/vue-google-adsense/commits?author=vesper8" title="Code">💻</a> <a href="https://github.com/mazipan/vue-google-adsense/commits?author=vesper8" title="Documentation">📖</a></td>
 
- 
+
 
   </tr>
 </table>
