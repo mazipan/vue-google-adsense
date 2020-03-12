@@ -12,8 +12,8 @@ export default {
     default: 'display:block;'
   },
   isNonPersonalizedAds: {
-    type: Boolean,
-    default: false
+    type: [Boolean, String],
+    default: 'false'
   },
   dataAdClient: {
     type: String,
@@ -36,7 +36,7 @@ export default {
     default: 'auto'
   },
   dataFullWidthResponsive: {
-    type: Boolean,
-    default: false
+    type: [Boolean, String],
+    default: 'false'
   }
 }
