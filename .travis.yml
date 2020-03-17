@@ -4,8 +4,18 @@ branches:
   only:
   - master
   - /^greenkeeper/.*$/
+  
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    
+install:
+  - yarn install
+  
 script:
-  - npm run build:demo
+  - yarn run build:demo
+  
 deploy:
   provider: pages
   skip-cleanup: true
