@@ -15,7 +15,7 @@
       :data-ad-test="dataAdTest"
       :data-full-width-responsive="dataFullWidthResponsive" />
     <script2
-      v-if="isNonPersonalizedAds"
+      v-if="isNonPersonalizedAds === true || isNonPersonalizedAds === 'true'"
       type="text/javascript">
       (adsbygoogle = window.adsbygoogle || []).push({}).requestNonPersonalizedAds = 1;
     </script2>
