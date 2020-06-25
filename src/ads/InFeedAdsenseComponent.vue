@@ -17,7 +17,8 @@
     <script2
       v-if="isNonPersonalizedAds"
       type="text/javascript">
-      (adsbygoogle = window.adsbygoogle || []).push({}).requestNonPersonalizedAds = 1;
+      (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
+      (adsbygoogle = window.adsbygoogle || []).push({});
     </script2>
     <script2 type="text/javascript">
       (adsbygoogle = window.adsbygoogle || []).push({});
