@@ -19,7 +19,7 @@
       type="text/javascript">
       (adsbygoogle = window.adsbygoogle || []).push({}).requestNonPersonalizedAds = 1;
     </script2>
-    <script2 type="text/javascript">
+    <script2 v-else type="text/javascript">
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script2>
   </div>
