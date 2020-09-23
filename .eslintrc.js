@@ -1,32 +1,20 @@
 module.exports = {
   root: true,
   env: {
-    browser: true,
     node: true
   },
-  parserOptions: {
-    parser: 'babel-eslint'
-  },
-  extends: ['standard', 'plugin:vue/recommended'],
-  // required to lint *.vue files
-  plugins: ['vue'],
-  // add your custom rules here
+  extends: [
+    'plugin:vue/essential',
+    '@vue/standard',
+    '@vue/typescript',
+    'prettier'
+  ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'vue/component-name-in-template-casing': [
-      'error',
-      'PascalCase',
-      {
-        ignores: ['nuxt', 'nuxt-link', 'nuxt-child', 'no-ssr', 'script2']
-      }
-    ],
-    'vue/html-closing-bracket-newline': [
-      'error',
-      {
-        singleline: 'never',
-        multiline: 'never'
-      }
-    ]
+    'no-tabs': 'off'
+  },
+  parserOptions: {
+    parser: '@typescript-eslint/parser'
   }
-};
+}

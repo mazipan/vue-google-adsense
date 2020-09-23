@@ -8,10 +8,11 @@
       :class="insClass"
       class="adsbygoogle"
       :style="insStyle"
+      data-ad-layout="in-article"
+      :data-ad-format="dataAdFormat"
       :data-ad-client="dataAdClient"
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest"
-      :data-ad-format="dataAdFormat"
       :data-full-width-responsive="dataFullWidthResponsive" />
     <script2
       v-if="isNonPersonalizedAds === true || isNonPersonalizedAds === 'true'"
@@ -26,17 +27,18 @@
 </template>
 
 <script>
-
-      // (adsbygoogle = window.adsbygoogle || []).push({
-      //   google_ad_client: "{{ dataAdClient }}",
-      //   enable_page_level_ads: true
-      // }).requestNonPersonalizedAds = 1;
 import constant from '../utils/constant'
 import props from '../utils/props'
+import assign from '../utils/assign'
 
 export default {
-  name: 'Adsense',
-  props,
+  name: 'InArticleAdsense',
+  props: assign(props, {
+    dataAdFormat: {
+      type: String,
+      default: 'fluid'
+    }
+  }),
   data () {
     return {
       ADS_SCRIPT: constant.ADS_SCRIPT

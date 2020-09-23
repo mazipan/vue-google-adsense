@@ -8,11 +8,10 @@
       :class="insClass"
       class="adsbygoogle"
       :style="insStyle"
-      data-ad-layout="in-article"
-      :data-ad-format="dataAdFormat"
       :data-ad-client="dataAdClient"
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest"
+      :data-ad-format="dataAdFormat"
       :data-full-width-responsive="dataFullWidthResponsive" />
     <script2
       v-if="isNonPersonalizedAds === true || isNonPersonalizedAds === 'true'"
@@ -29,16 +28,10 @@
 <script>
 import constant from '../utils/constant'
 import props from '../utils/props'
-import assign from '../utils/assign'
 
 export default {
-  name: 'InArticleAdsense',
-  props: assign.__assign(props, {
-    dataAdFormat: {
-      type: String,
-      default: 'fluid'
-    }
-  }),
+  name: 'Adsense',
+  props,
   data () {
     return {
       ADS_SCRIPT: constant.ADS_SCRIPT

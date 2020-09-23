@@ -4,24 +4,26 @@ branches:
   only:
   - master
   - /^greenkeeper/.*$/
-  
+
 cache:
-  yarn: true
   directories:
     - node_modules
-    
+
+before_install:
+  - npm install -g pnpm
+
 install:
-  - yarn install
-  
+  - pnpm install
+
 script:
   - yarn run build:demo
-  
+
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
-  local-dir: demo
+  local-dir: packages/demo/dist
   verbose: true
   on:
     branch: master

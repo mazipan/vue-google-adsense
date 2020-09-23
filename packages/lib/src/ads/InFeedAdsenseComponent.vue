@@ -33,7 +33,7 @@ import assign from '../utils/assign'
 
 export default {
   name: 'InFeedAdsense',
-  props: assign.__assign(props, {
+  props: assign(props, {
     dataAdFormat: {
       type: String,
       default: 'fluid'

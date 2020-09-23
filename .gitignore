@@ -9,5 +9,4 @@ yarn-error.log
 *.ntvs*
 *.njsproj
 *.sln
-demo/
 dist/

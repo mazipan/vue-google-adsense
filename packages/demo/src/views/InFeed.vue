@@ -1,0 +1,106 @@
+<template>
+  <div class="home VueCurrencyFilter">
+    <section class="container hero">
+      <c-flex mb="4" align="center" justify="center" direction="column">
+        <c-text as="h1" fontSize="5xl">In Feed Adsense</c-text>
+      </c-flex>
+    </section>
+
+    <section class="container ads">
+      <c-stack :spacing="5" is-inline :shouldWrapChildren="true" justify="center" wrap="wrap">
+        <ImageCard />
+        <ImageCard />
+        <ImageCard />
+        <InFeedAdsense
+          style="height: 300px; margin: 1em 0"
+          root-class="wrapper VueInFeedAdsense"
+          ins-class="ins-custom"
+          data-ad-layout-key="-fg+5n+6t-e7+r"
+          data-ad-client="ca-pub-5442972248172818"
+          data-ad-slot="2105028631"
+        />
+        <ImageCard />
+        <ImageCard />
+        <ImageCard />
+        <ImageCard />
+        <ImageCard />
+        <ImageCard />
+        <InFeedAdsense
+          style="height: 300px; margin: 1em 0"
+          root-class="wrapper VueInFeedAdsense"
+          ins-class="ins-custom"
+          data-ad-layout-key="-fg+5n+6t-e7+r"
+          data-ad-client="ca-pub-5442972248172818"
+          data-ad-slot="2105028631"
+        />
+      </c-stack>
+    </section>
+
+    <section class="container">
+      <c-stack :spacing="5" is-inline>
+        <Box
+          title="Default Adsense"
+          description="A simple way to get ads on your page. Choose the size, placement and style you want to display."
+          link="https://support.google.com/adsense/answer/6002575?hl=en_GB"
+          demo="/"
+        />
+
+        <Box
+          title="In Article Adsense"
+          description="Ads that fit seamlessly in between the paragraphs of your pages for an enhanced reading experience."
+          link="https://support.google.com/adsense/answer/7320112?hl=en_GB"
+          demo="/in-article/"
+        />
+      </c-stack>
+    </section>
+
+    <section class="container ads">
+      <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+    </section>
+
+    <footer class="footer">
+      <c-flex m="2" align="center" justify="center">
+        <c-text textAlign="center">Built with ❤️ by <a href="https://mazipan.space">Irfan Maulana</a></c-text>
+      </c-flex>
+    </footer>
+  </div>
+</template>
+
+<script lang="js">
+import { CFlex, CText, CStack } from '@chakra-ui/vue'
+import Box from '../components/Box'
+import ImageCard from '../components/ImageCard'
+
+export default {
+  name: 'InFeed',
+  components: {
+    Box,
+    ImageCard,
+    CFlex,
+    CText,
+    CStack,
+  },
+  data () {
+    return {
+    }
+  }
+}
+</script>
+
+<style lang="scss">
+pre:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+.container {
+  margin-top: 2em;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @media (min-width: 760px) {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+}
+</style>
