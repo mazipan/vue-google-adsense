@@ -16,7 +16,9 @@ install:
   - pnpm install
 
 script:
-  - yarn run build:demo
+  - pnpm run lint
+  - pnpm run build:lib
+  - pnpm run build:demo
 
 deploy:
   provider: pages

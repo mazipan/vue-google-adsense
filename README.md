@@ -150,15 +150,18 @@ Already used in production for these project :
 
 ## 🏃 Development
 
+We are using [pnpm](https://pnpm.js.org/), please read the [Installation](https://pnpm.js.org/en/installation) section first.
+
 ``` bash
 # install dependencies
-npm install
+pnpm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# serve with demo page
+pnpm run dev:demo
 
 # build for production
-npm run build
+pnpm run build:demo
+pnpm run build:lib
 ```
 
 ## Support me
