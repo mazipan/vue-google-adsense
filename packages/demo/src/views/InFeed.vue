@@ -14,7 +14,7 @@
 
         <c-box maxW="sm" minW="250" :mb="5" border-width="1px" rounded="lg" overflow="hidden">
           <InFeedAdsense
-            style="height: 380px; margin: 1em 0"
+            style="height: 380px; min-width:250px; margin: 1em 0;"
             root-class="wrapper VueInFeedAdsense"
             ins-class="ins-custom"
             data-ad-layout-key="-fg+5n+6t-e7+r"
@@ -33,7 +33,7 @@
         <ImageCard />
         <c-box maxW="sm" minW="250" :mb="5" border-width="1px" rounded="lg" overflow="hidden">
           <InFeedAdsense
-            style="height: 380px; margin: 1em 0"
+            style="height: 380px; min-width:250px; margin: 1em 0;"
             root-class="wrapper VueInFeedAdsense"
             ins-class="ins-custom"
             data-ad-layout-key="-fg+5n+6t-e7+r"
