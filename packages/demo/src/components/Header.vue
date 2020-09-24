@@ -1,10 +1,7 @@
 <template>
   <div class="hero">
-    <!-- <c-flex mb="2" align="center" justify="center">
-      <img src="img/icons/VueJS-Currency-128px.png" />
-    </c-flex> -->
 
-    <c-flex mb="4" align="center" justify="center" direction="column">
+    <c-flex mb="4" textAlign="center" align="center" justify="center" direction="column">
       <c-text as="h1" fontSize="5xl">Vue Google Adsense</c-text>
       <c-text as="h3" fontSize="3xl">Vue.js Google Adsense Component with InFeed and InArticle Ads support</c-text>
     </c-flex>
