@@ -17,9 +17,9 @@
             style="height: 380px; min-width: 250px; margin: 1em 0"
             root-class="wrapper VueInFeedAdsense"
             ins-class="ins-custom"
-            data-ad-layout-key="-fg+5n+6t-e7+r"
+            data-ad-layout-key="-6h+ed+1l-6o+ab"
             data-ad-client="ca-pub-5442972248172818"
-            data-ad-slot="2105028631"
+            data-ad-slot="5701222588s"
           />
         </c-box>
         <ImageCard />
@@ -36,9 +36,9 @@
             style="height: 380px; min-width: 250px; margin: 1em 0"
             root-class="wrapper VueInFeedAdsense"
             ins-class="ins-custom"
-            data-ad-layout-key="-fg+5n+6t-e7+r"
+            data-ad-layout-key="-6h+ed+1l-6o+ab"
             data-ad-client="ca-pub-5442972248172818"
-            data-ad-slot="2105028631"
+            data-ad-slot="5701222588s"
           />
         </c-box>
       </c-stack>

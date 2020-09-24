@@ -3,8 +3,8 @@
     <c-heading>{{ title }}</c-heading>
     <c-text :mt="4" :mb="4">{{ description }}</c-text>
 
-    <a :href="link" rel="noreferrer noopenner" target="_blank"><c-button :mr="2" variant="outline" variant-color="green" size="md"> Learn More </c-button></a>
-    <router-link :to="demo"><c-button :mr="2" variant-color="green" size="md"> See the demo </c-button></router-link>
+    <a :href="link" rel="noreferrer noopenner" target="_blank"><c-button :mr="2" :mb="2" variant="outline" variant-color="green" size="md"> Learn More </c-button></a>
+    <router-link :to="demo"><c-button :mr="2" :mb="2" variant-color="green" size="md"> See the demo </c-button></router-link>
   </c-box>
 </template>
 
