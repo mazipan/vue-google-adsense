@@ -43,7 +43,9 @@
 
       <div class="ads">
         <c-flex m="4" align="center" justify="center" direction="column">
-          <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+          <c-box minW="sm" overflow="hidden">
+            <InArticleAdsense style="min-width: 250px; margin: 1em 0" data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+          </c-box>
         </c-flex>
       </div>
 
@@ -63,15 +65,17 @@
       <c-flex>
         <c-text :mb="2" :mr="5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis in nulla porttitor ultrices. Sed dictum ante sit amet
-          libero aliquam, vitae bibendum nisi blandit. Etiam id euismod est. Sed varius tristique libero quis porta. Nam ex ligula, semper eu
-          nisl at, interdum viverra nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin
-          vehicula commodo mauris. Sed eu blandit sem, hendrerit placerat dui. Maecenas non ante ante. Sed et mi ut quam porttitor egestas id
-          in sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse eros nulla,
+          libero aliquam, vitae bibendum nisi blandit. Etiam id euismod est. Sed varius tristique libero quis porta. Nam ex ligula, semper
+          eu nisl at, interdum viverra nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin
+          vehicula commodo mauris. Sed eu blandit sem, hendrerit placerat dui. Maecenas non ante ante. Sed et mi ut quam porttitor egestas
+          id in sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse eros nulla,
           pulvinar id ante nec, vulputate bibendum lectus.
         </c-text>
 
-        <c-flex m="4" minW="250" align="center" justify="center" direction="column">
-          <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        <c-flex m="4" align="center" justify="center" direction="column">
+          <c-box minW="sm" overflow="hidden">
+            <InArticleAdsense style="min-width: 250px; margin: 1em 0" data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+          </c-box>
         </c-flex>
 
         <c-text :mb="2" :ml="5">
@@ -104,9 +108,12 @@
 
       <div class="ads">
         <c-flex m="4" align="center" justify="center" direction="column">
-          <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+          <c-box minW="sm" border-width="1px" rounded="lg" overflow="hidden">
+            <InArticleAdsense style="min-width: 250px; margin: 1em 0" data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+          </c-box>
         </c-flex>
       </div>
+
     </section>
 
     <section class="container">
@@ -129,7 +136,9 @@
 
     <section class="container ads">
       <c-flex m="4" align="center" justify="center" direction="column">
-        <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        <c-box minW="sm" border-width="1px" rounded="lg" overflow="hidden">
+          <InArticleAdsense style="min-width: 250px; margin: 1em 0" data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        </c-box>
       </c-flex>
     </section>
 

@@ -12,9 +12,9 @@
         <ImageCard />
         <ImageCard />
 
-        <c-box maxW="sm" minW="250" :mb="5" border-width="1px" rounded="lg" overflow="hidden">
+        <c-box minW="sm" :mb="5" border-width="1px" rounded="lg" overflow="hidden">
           <InFeedAdsense
-            style="height: 380px; min-width:250px; margin: 1em 0;"
+            style="height: 380px; min-width: 250px; margin: 1em 0"
             root-class="wrapper VueInFeedAdsense"
             ins-class="ins-custom"
             data-ad-layout-key="-fg+5n+6t-e7+r"
@@ -31,9 +31,9 @@
 
         <ImageCard />
         <ImageCard />
-        <c-box maxW="sm" minW="250" :mb="5" border-width="1px" rounded="lg" overflow="hidden">
+        <c-box minW="sm" :mb="5" border-width="1px" rounded="lg" overflow="hidden">
           <InFeedAdsense
-            style="height: 380px; min-width:250px; margin: 1em 0;"
+            style="height: 380px; min-width: 250px; margin: 1em 0"
             root-class="wrapper VueInFeedAdsense"
             ins-class="ins-custom"
             data-ad-layout-key="-fg+5n+6t-e7+r"
@@ -64,7 +64,13 @@
 
     <section class="container ads">
       <c-flex m="4" align="center" justify="center" direction="column">
-        <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        <c-box minW="sm" border-width="1px" rounded="lg" overflow="hidden">
+          <InArticleAdsense
+            style="min-width: 250px; margin: 1em 0"
+            data-ad-client="ca-pub-5442972248172818"
+            data-ad-slot="7974047383"
+          />
+        </c-box>
       </c-flex>
     </section>
 
