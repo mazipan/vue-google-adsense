@@ -12,14 +12,14 @@
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest"
       :data-ad-format="dataAdFormat"
-      :data-full-width-responsive="dataFullWidthResponsive" />
+      :data-full-width-responsive="dataFullWidthResponsive === 'yes'" />
     <script2
-      v-if="isNonPersonalizedAds === true || isNonPersonalizedAds === 'true'"
+      v-if="isNonPersonalizedAds === 'yes'"
       type="text/javascript">
       (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script2>
-    <script2 v-else type="text/javascript">
+    <script2 v-if="isNonPersonalizedAds === 'no'" type="text/javascript">
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script2>
   </div>

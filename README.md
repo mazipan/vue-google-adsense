@@ -81,6 +81,22 @@ module.exports = {
 }
 ```
 
+### Usage in Gridsome
+
+Insert these code in `src/main.js`:
+
+ ```javascript
+// The Client API can be used here. Learn more: gridsome.org/docs/client-api
+export default function (Vue, { router, head, isClient }) {
+  if (isClient) {
+		Vue.use(require('vue-script2'));
+		Vue.use(require('vue-google-adsense/dist/Adsense.min.js').default);
+		Vue.use(require('vue-google-adsense/dist/InArticleAdsense.min.js').default);
+		Vue.use(require('vue-google-adsense/dist/InFeedAdsense.min.js').default);
+  }
+}
+```
+
 ### Template
 
 VueAdsense Template :
@@ -133,8 +149,8 @@ Vue.use(Ads.AutoAdsense, { adClient: 'YOUR_GOOGLE_AD_CLIENT' })
 | data-ad-layout-key | String      | `empty`      | Attribute `data-ad-layout-key` from adsense |
 | data-ad-test       | String      | `empty`      | Attribute `data-ad-test` from adsense |
 | data-ad-format     | String      | `auto` for Adsense Ads<br> `fluid` for InFeed and InArticle Ads | Attribute `data-ad-format` from adsense <br> Possible values are `auto`, `horizontal`, `vertical`, `rectangle` or `fluid` |
-| data-full-width-responsive | Boolean | `false`  | Attribute `data-full-width-responsive` from adsense |
-| is-non-personalized-ads | Boolean| `false`      | Props for request `non-personalized` ads, [read more](https://support.google.com/adsense/answer/9042142?hl=en&ref_topic=7670012) |
+| data-full-width-responsive | String (`yes` or `no`) | `no`  | Attribute `data-full-width-responsive` from adsense |
+| is-non-personalized-ads | String (`yes` or `no`) | `no`      | Props for request `non-personalized` ads, [read more](https://support.google.com/adsense/answer/9042142?hl=en&ref_topic=7670012) |
 
 ## :metal: Who is using this library
 

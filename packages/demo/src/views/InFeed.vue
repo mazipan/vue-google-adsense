@@ -11,28 +11,32 @@
         <ImageCard />
         <ImageCard />
         <ImageCard />
-        <InFeedAdsense
-          style="height: 300px; margin: 1em 0"
-          root-class="wrapper VueInFeedAdsense"
-          ins-class="ins-custom"
-          data-ad-layout-key="-fg+5n+6t-e7+r"
-          data-ad-client="ca-pub-5442972248172818"
-          data-ad-slot="2105028631"
-        />
+        <c-box maxW="sm" :mb="5" border-width="1px" rounded="lg" overflow="hidden">
+          <InFeedAdsense
+            style="height: 300px; margin: 1em 0"
+            root-class="wrapper VueInFeedAdsense"
+            ins-class="ins-custom"
+            data-ad-layout-key="-fg+5n+6t-e7+r"
+            data-ad-client="ca-pub-5442972248172818"
+            data-ad-slot="2105028631"
+          />
+        </c-box>
         <ImageCard />
         <ImageCard />
         <ImageCard />
         <ImageCard />
         <ImageCard />
         <ImageCard />
-        <InFeedAdsense
-          style="height: 300px; margin: 1em 0"
-          root-class="wrapper VueInFeedAdsense"
-          ins-class="ins-custom"
-          data-ad-layout-key="-fg+5n+6t-e7+r"
-          data-ad-client="ca-pub-5442972248172818"
-          data-ad-slot="2105028631"
-        />
+        <c-box maxW="sm" :mb="5" border-width="1px" rounded="lg" overflow="hidden">
+          <InFeedAdsense
+            style="height: 300px; margin: 1em 0"
+            root-class="wrapper VueInFeedAdsense"
+            ins-class="ins-custom"
+            data-ad-layout-key="-fg+5n+6t-e7+r"
+            data-ad-client="ca-pub-5442972248172818"
+            data-ad-slot="2105028631"
+          />
+        </c-box>
       </c-stack>
     </section>
 
@@ -67,7 +71,7 @@
 </template>
 
 <script lang="js">
-import { CFlex, CText, CStack } from '@chakra-ui/vue'
+import { CBox, CFlex, CText, CStack } from '@chakra-ui/vue'
 import Box from '../components/Box'
 import ImageCard from '../components/ImageCard'
 
@@ -76,6 +80,7 @@ export default {
   components: {
     Box,
     ImageCard,
+    CBox,
     CFlex,
     CText,
     CStack,
