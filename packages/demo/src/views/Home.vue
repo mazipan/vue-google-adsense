@@ -7,11 +7,12 @@
     <section class="container ads">
       <c-flex align="center" justify="center" direction="column">
         <c-box w="100%" border-width="1px" rounded="lg" overflow="hidden">
-          <InArticleAdsense
+          <Adsense
             style="width: 100%; min-width: 250px;"
+            ins-style="display:inline-block;width:728px;height:90px"
             data-ad-client="ca-pub-5442972248172818"
-            data-ad-slot="7974047383"
-          />
+            data-ad-slot="7319719723">
+          </Adsense>
         </c-box>
       </c-flex>
     </section>
