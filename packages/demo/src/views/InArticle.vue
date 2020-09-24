@@ -42,9 +42,13 @@
       </c-text>
 
       <div class="ads">
-        <c-flex m="4" align="center" justify="center" direction="column">
-          <c-box minW="sm" overflow="hidden">
-            <InArticleAdsense style="min-width: 250px; margin: 1em 0" data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        <c-flex align="center" justify="center" direction="column">
+          <c-box w="100%" overflow="hidden">
+            <InArticleAdsense
+              style="width: 100%; min-width: 250px;"
+              data-ad-client="ca-pub-5442972248172818"
+              data-ad-slot="7974047383"
+            />
           </c-box>
         </c-flex>
       </div>
@@ -72,9 +76,9 @@
           pulvinar id ante nec, vulputate bibendum lectus.
         </c-text>
 
-        <c-flex m="4" align="center" justify="center" direction="column">
+        <c-flex align="center" justify="center" direction="column">
           <c-box minW="sm" overflow="hidden">
-            <InArticleAdsense style="min-width: 250px; margin: 1em 0" data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+            <InArticleAdsense style="min-width: 250px;" data-ad-client="ca-pub-5442972248172818" data-ad-slot="2669016517" />
           </c-box>
         </c-flex>
 
@@ -107,9 +111,13 @@
       </c-text>
 
       <div class="ads">
-        <c-flex m="4" align="center" justify="center" direction="column">
-          <c-box minW="sm" border-width="1px" rounded="lg" overflow="hidden">
-            <InArticleAdsense style="min-width: 250px; margin: 1em 0" data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        <c-flex align="center" justify="center" direction="column">
+          <c-box w="100%" overflow="hidden">
+            <InArticleAdsense
+              style="width: 100%; min-width: 250px;"
+              data-ad-client="ca-pub-5442972248172818"
+              data-ad-slot="7974047383"
+            />
           </c-box>
         </c-flex>
       </div>
@@ -135,9 +143,13 @@
     </section>
 
     <section class="container ads">
-      <c-flex m="4" align="center" justify="center" direction="column">
-        <c-box minW="sm" border-width="1px" rounded="lg" overflow="hidden">
-          <InArticleAdsense style="min-width: 250px; margin: 1em 0" data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+      <c-flex align="center" justify="center" direction="column">
+        <c-box w="100%" border-width="1px" rounded="lg" overflow="hidden">
+          <InArticleAdsense
+            style="width: 100%; min-width: 250px;"
+            data-ad-client="ca-pub-5442972248172818"
+            data-ad-slot="7974047383"
+          />
         </c-box>
       </c-flex>
     </section>

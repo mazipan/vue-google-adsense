@@ -5,10 +5,10 @@
     </section>
 
     <section class="container ads">
-      <c-flex m="4" align="center" justify="center" direction="column">
-        <c-box minW="sm" border-width="1px" rounded="lg" overflow="hidden">
+      <c-flex align="center" justify="center" direction="column">
+        <c-box w="100%" border-width="1px" rounded="lg" overflow="hidden">
           <InArticleAdsense
-            style="min-width: 250px; margin: 1em 0"
+            style="width: 100%; min-width: 250px;"
             data-ad-client="ca-pub-5442972248172818"
             data-ad-slot="7974047383"
           />
@@ -42,10 +42,10 @@
     </section>
 
     <section class="container ads">
-      <c-flex m="4" align="center" justify="center" direction="column">
-        <c-box minW="sm" border-width="1px" rounded="lg" overflow="hidden">
+      <c-flex align="center" justify="center" direction="column">
+        <c-box w="100%" border-width="1px" rounded="lg" overflow="hidden">
           <InArticleAdsense
-            style="min-width: 250px; margin: 1em 0"
+            style="width: 100%; min-width: 250px;"
             data-ad-client="ca-pub-5442972248172818"
             data-ad-slot="7974047383"
           />
