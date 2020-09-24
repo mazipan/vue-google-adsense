@@ -42,7 +42,9 @@
       </c-text>
 
       <div class="ads">
-        <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        <c-flex m="4" align="center" justify="center" direction="column">
+          <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        </c-flex>
       </div>
 
       <c-text :mb="2">
@@ -67,16 +69,17 @@
           in sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse eros nulla,
           pulvinar id ante nec, vulputate bibendum lectus.
         </c-text>
-        <c-text :mb="2" :mr="5">
+
+        <c-flex m="4" minW="250" align="center" justify="center" direction="column">
+          <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        </c-flex>
+
+        <c-text :mb="2" :ml="5">
           Suspendisse dapibus sodales lorem sed pharetra. Nam pellentesque posuere lorem, sed vulputate mi varius dapibus. Suspendisse
           potenti. Nulla non interdum libero. Duis ornare risus non leo posuere maximus. Fusce id urna in sapien tincidunt finibus nec eget
           diam. Vivamus vitae efficitur lacus. Curabitur vel ex urna. In scelerisque lorem tellus, nec tempus magna egestas vel. In eu erat
           vestibulum, euismod est eget, elementum felis.
         </c-text>
-
-        <div class="ads">
-          <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
-        </div>
       </c-flex>
 
       <c-text :mb="2">
@@ -100,7 +103,9 @@
       </c-text>
 
       <div class="ads">
-        <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        <c-flex m="4" align="center" justify="center" direction="column">
+          <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        </c-flex>
       </div>
     </section>
 
@@ -123,7 +128,9 @@
     </section>
 
     <section class="container ads">
-      <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+      <c-flex m="4" align="center" justify="center" direction="column">
+        <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+      </c-flex>
     </section>
 
     <footer class="footer">

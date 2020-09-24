@@ -59,7 +59,9 @@
     </section>
 
     <section class="container ads">
-      <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+      <c-flex m="4" align="center" justify="center" direction="column">
+        <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+      </c-flex>
     </section>
 
     <footer class="footer">
