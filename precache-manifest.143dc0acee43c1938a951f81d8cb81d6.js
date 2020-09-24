@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-google-adsense/apple-touch-icon.png"
   },
   {
-    "revision": "80dbabb6e1d7b3bb1ca0",
+    "revision": "0eff626fc03fb281ce37",
     "url": "/vue-google-adsense/css/app.d738855a.css"
   },
   {
-    "revision": "f760f2e4dbd0022c5f42",
+    "revision": "3947b18f401fc9b66cc5",
     "url": "/vue-google-adsense/css/in-article.d738855a.css"
   },
   {
-    "revision": "2f4b28066ac777df28ed",
+    "revision": "870723c9da08aea6bde0",
     "url": "/vue-google-adsense/css/in-feed.d738855a.css"
   },
   {
@@ -32,24 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-google-adsense/favicon-32x32.png"
   },
   {
-    "revision": "67cf3896057db3ff21314937275e6d38",
+    "revision": "9772c762eeb47300fff71521d2d9b125",
     "url": "/vue-google-adsense/index.html"
   },
   {
-    "revision": "80dbabb6e1d7b3bb1ca0",
-    "url": "/vue-google-adsense/js/app.fb467f67.js"
+    "revision": "0eff626fc03fb281ce37",
+    "url": "/vue-google-adsense/js/app.d2093302.js"
   },
   {
     "revision": "9054efc73ab281cebb21",
     "url": "/vue-google-adsense/js/chunk-vendors.fcca1fcc.js"
   },
   {
-    "revision": "f760f2e4dbd0022c5f42",
-    "url": "/vue-google-adsense/js/in-article.cddd47fd.js"
+    "revision": "3947b18f401fc9b66cc5",
+    "url": "/vue-google-adsense/js/in-article.510918f8.js"
   },
   {
-    "revision": "2f4b28066ac777df28ed",
-    "url": "/vue-google-adsense/js/in-feed.4672e1a7.js"
+    "revision": "870723c9da08aea6bde0",
+    "url": "/vue-google-adsense/js/in-feed.f21529f9.js"
   },
   {
     "revision": "897a18074612fcc2a6788208f3a18668",
