@@ -1,27 +1,25 @@
-## Pull Request template
-Please, go through these steps before you submit a PR.
+## 👋 Thank you for the PR!
 
-1. Make sure that your PR is not a duplicate.
-2. If not, then make sure that:
+### Description of PR:
 
-    a. You have done your changes in a separate branch. Branches MUST have descriptive names that start with either the `fix/` or `feature/` prefixes. Good examples are: `fix/signin-issue` or `feature/issue-templates`.
+Add short description
 
-    b. You have a descriptive commit message with a short title (first line).
+### Issue Reference
 
-    c. You have only one commit (if not, squash them into one commit).
+Add issue reference
 
-    d. `npm test` doesn't throw any error. If it does, fix them first and amend your commit (`git commit --amend`).
+### Screenshoot
 
-3. **After** these steps, you're ready to open a pull request.
+Add screenshoot if you change the UI
 
-    a. Your pull request MUST NOT target the `master` branch on this repository. You probably want to target `staging` instead.
+### Minimum Support
 
-    b. Give a descriptive title to your PR.
+- [ ] Click 🌟 button
+- [ ] Follow the Author
 
-    c. Provide a description of your changes.
+### Consider to Support
 
-    d. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes (if such).
-
-IMPORTANT: Please review the [CONTRIBUTING.md](../CONTRIBUTING.md) file for detailed contributing guidelines.
-
-**PLEASE REMOVE THIS TEMPLATE BEFORE SUBMITTING**
+- 👉 🇮🇩 [Trakteer](https://trakteer.id/mazipan?utm_source=github)
+- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/mazipan?utm_source=github)
+- 👉 🌍 [Paypal](https://www.paypal.me/mazipan?utm_source=github)
+- 👉 🌍 [Ko-Fi](https://ko-fi.com/mazipan)
