@@ -90,9 +90,9 @@ Insert these code in `src/main.js`:
 export default function (Vue, { router, head, isClient }) {
   if (isClient) {
 	Vue.use(require('vue-script2'));
-	Vue.use(require('vue-google-adsense/dist/Adsense.min.js').default);
-	Vue.use(require('vue-google-adsense/dist/InArticleAdsense.min.js').default);
-	Vue.use(require('vue-google-adsense/dist/InFeedAdsense.min.js').default);
+	Vue.use(require('vue-google-adsense/dist/Adsense.min.js'));
+	Vue.use(require('vue-google-adsense/dist/InArticleAdsense.min.js'));
+	Vue.use(require('vue-google-adsense/dist/InFeedAdsense.min.js'));
   }
 }
 ```
