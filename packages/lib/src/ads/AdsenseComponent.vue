@@ -1,9 +1,6 @@
 <template>
   <div :class="rootClass">
-    <script2
-      type="text/javascript"
-      async="true"
-      :src="ADS_SCRIPT" />
+    <script2 type="text/javascript" async="true" :src="ADS_SCRIPT" />
     <ins
       :class="insClass"
       class="adsbygoogle"
@@ -12,16 +9,16 @@
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest"
       :data-ad-format="dataAdFormat"
-      :data-full-width-responsive="dataFullWidthResponsive === 'yes'" />
-    <script2
-      v-if="isNonPersonalizedAds === 'yes'"
-      type="text/javascript">
-      (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script2>
-    <script2 v-if="isNonPersonalizedAds === 'no'" type="text/javascript">
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script2>
+      :data-full-width-responsive="dataFullWidthResponsive === 'yes'"
+    />
+    <template v-if="isNonPersonalizedAds === 'yes'">
+      <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1; (adsbygoogle = window.adsbygoogle || []).push({});
+      </script2>
+    </template>
+    <template v-if="isNonPersonalizedAds === 'no'">
+      <script2 type="text/javascript"> (adsbygoogle = window.adsbygoogle || []).push({}); </script2>
+    </template>
   </div>
 </template>
 
@@ -32,10 +29,10 @@ import props from '../utils/props'
 export default {
   name: 'Adsense',
   props,
-  data () {
+  data() {
     return {
-      ADS_SCRIPT: constant.ADS_SCRIPT
+      ADS_SCRIPT: constant.ADS_SCRIPT,
     }
-  }
+  },
 }
 </script>
