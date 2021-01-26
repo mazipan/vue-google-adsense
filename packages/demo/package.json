@@ -1,6 +1,6 @@
 {
   "name": "demo",
-	"version": "1.9.1",
+	"version": "1.9.2",
   "description": "Vue.js Google Adsense Component with InFeed and InArticle Ads support",
 	"author": "Irfan Maulana (https://github.com/mazipan/)",
 	"scripts": {
