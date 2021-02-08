@@ -1,6 +1,6 @@
 # 💰 Vue Google Adsense
 
-![License](https://img.shields.io/github/license/mazipan/vue-google-adsense.svg?maxAge=3600) [![Size on Bundlephobia](https://badgen.net/bundlephobia/minzip/vue-google-adsense)](https://bundlephobia.com/result?p=vue-google-adsense) [![Travis](https://img.shields.io/travis/mazipan/vue-google-adsense.svg)](https://travis-ci.org/mazipan/vue-google-adsense) [![version](https://img.shields.io/npm/v/vue-google-adsense.svg?maxAge=60)](https://www.npmjs.com/package/vue-google-adsense) ![downloads](https://img.shields.io/npm/dt/vue-google-adsense.svg?maxAge=3600) [![All Contributors](https://img.shields.io/github/contributors/mazipan/vue-google-adsense)](#contributors)
+![License](https://img.shields.io/github/license/mazipan/vue-google-adsense.svg?maxAge=3600) [![Size on Bundlephobia](https://badgen.net/bundlephobia/minzip/vue-google-adsense)](https://bundlephobia.com/result?p=vue-google-adsense) [![install size](https://packagephobia.com/badge?p=vue-google-adsense)](https://packagephobia.com/result?p=vue-google-adsense) [![Travis](https://img.shields.io/travis/mazipan/vue-google-adsense.svg)](https://travis-ci.org/mazipan/vue-google-adsense) [![version](https://img.shields.io/npm/v/vue-google-adsense.svg?maxAge=60)](https://www.npmjs.com/package/vue-google-adsense) ![downloads](https://img.shields.io/npm/dt/vue-google-adsense.svg?maxAge=3600) [![All Contributors](https://img.shields.io/github/contributors/mazipan/vue-google-adsense)](#contributors)
 
 > Vue.js Google Adsense Component with InFeed and InArticle Ads support
 
