@@ -1,7 +1,7 @@
 ---
 name: "\U0001F680 Feature request"
 about: Help us to improve this library
-title: "[\U0001F680 Feature Request] - Title of your request"
+title: "\U0001F680 Feature Request - Feature title"
 labels: 'feature-request'
 assignees: '@mazipan'
 ---
