@@ -1,7 +1,7 @@
 ---
 name: "\U0001F41B Bug/error report"
 about: Help us report any bugs/errors you found
-title: "[\U0001F41B Bug] - Title of bug/error"
+title: "\U0001F41B Bug - Name of bug"
 labels: 'bug'
 assignees: '@mazipan'
 ---
