@@ -23,7 +23,7 @@
 	"devDependencies": {
 		"bili": "5.0.5",
 		"rollup-plugin-vue": "4.7.1",
-		"rollup-plugin-typescript2": "0.27.2",
+		"rollup-plugin-typescript2": "0.30.0",
 		"vue": "^2.6.12",
 		"vue-template-compiler": "2.6.12"
 	},
