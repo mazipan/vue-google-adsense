@@ -1,7 +1,7 @@
 {
-  "name": "vue-google-adsense",
-  "description": "Vue.js Google Adsense Component with InFeed and InArticle Ads support",
-  "version": "1.9.3",
+	"name": "vue-google-adsense",
+	"description": "Vue.js Google Adsense Component with InFeed and InArticle Ads support",
+	"version": "1.9.3",
 	"license": "MIT",
 	"author": "Irfan Maulana (https://github.com/mazipan/)",
 	"homepage": "https://mazipan.github.io/vue-google-adsense/",
@@ -16,24 +16,25 @@
 	"files": [
 		"dist"
 	],
-  "peerDependencies": {
-    "vue": "^2.6.12",
-    "vue-script2": "2.1.0"
-  },
+	"peerDependencies": {
+		"vue": "^2.6.12",
+		"vue-script2": "2.1.0"
+	},
 	"devDependencies": {
+		"@types/node": "^15.0.2",
 		"bili": "5.0.5",
-		"rollup-plugin-vue": "4.7.1",
 		"rollup-plugin-typescript2": "0.30.0",
+		"rollup-plugin-vue": "4.7.1",
 		"vue": "^2.6.12",
 		"vue-template-compiler": "2.6.12"
 	},
 	"keywords": [
-    "vuejs adsense",
-    "vue2 adsense",
-    "vue adsense",
-    "vuejs google adsense",
-    "vue2 google adsense",
-    "vue google adsense"
+		"vuejs adsense",
+		"vue2 adsense",
+		"vue adsense",
+		"vuejs google adsense",
+		"vue2 google adsense",
+		"vue google adsense"
 	],
 	"repository": {
 		"type": "git",

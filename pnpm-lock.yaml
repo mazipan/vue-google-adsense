@@ -112,12 +112,14 @@ importers:
       vuex: 3.5.1
   packages/lib:
     devDependencies:
+      '@types/node': 15.0.2
       bili: 5.0.5
       rollup-plugin-typescript2: 0.30.0
       rollup-plugin-vue: 4.7.1_vue-template-compiler@2.6.12
       vue: 2.6.12
       vue-template-compiler: 2.6.12
     specifiers:
+      '@types/node': ^15.0.2
       bili: 5.0.5
       rollup-plugin-typescript2: 0.30.0
       rollup-plugin-vue: 4.7.1
@@ -2680,6 +2682,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-jiE3QIxJ8JLNcb1Ps6rDbysDhN4xa8DJJvuC9prr6w+1tIh+QAbYyNF3tyiZNLDBIuBCf4KEcV2UvQm/V60xfA==
+  /@types/node/15.0.2:
+    dev: true
+    resolution:
+      integrity: sha512-p68+a+KoxpoB47015IeYZYRrdqMUcpbK8re/zpFB8Ld46LHC1lPEbp3EXgkEhAYEcPvjJF6ZO+869SQ0aH1dcA==
   /@types/normalize-package-data/2.4.0:
     dev: true
     resolution:
