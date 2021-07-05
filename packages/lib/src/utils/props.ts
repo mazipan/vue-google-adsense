@@ -38,5 +38,9 @@ export default {
   dataFullWidthResponsive: {
     type: String,
     default: 'no'
-  }
+  },
+  dataAdRegion: {
+    type: String,
+    default: ''
+  },
 }

@@ -9,6 +9,7 @@
       :data-ad-slot="dataAdSlot"
       :data-ad-test="dataAdTest"
       :data-ad-format="dataAdFormat"
+      :data-ad-region="dataAdRegion"
       :data-full-width-responsive="dataFullWidthResponsive === 'yes'"
     />
     <template v-if="isNonPersonalizedAds === 'yes'">
