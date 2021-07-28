@@ -1,12 +1,7 @@
 import constant from '../utils/constant'
 
-interface AutoAdsenseParam {
-  adClient: string;
-  isNewAdsCode: boolean;
-}
-
 const AutoAdsense = {
-  install: (Vue, { adClient = '', isNewAdsCode = false }: AutoAdsenseParam) => {
+  install: (Vue, { adClient = '', isNewAdsCode = false }) => {
     if (!adClient) {
       return Error('AutoAdsense require "adClient" parameter')
     }
