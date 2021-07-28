@@ -151,7 +151,7 @@ Vue.use(Ads.AutoAdsense, { adClient: 'YOUR_GOOGLE_AD_CLIENT', isNewAdsCode: true
 | data-ad-format     | String      | `auto` for Adsense Ads<br> `fluid` for InFeed and InArticle Ads | Attribute `data-ad-format` from adsense <br> Possible values are `auto`, `horizontal`, `vertical`, `rectangle` or `fluid` |
 | data-full-width-responsive | String (`yes` or `no`) | `no`  | Attribute `data-full-width-responsive` from adsense |
 | is-non-personalized-ads | String (`yes` or `no`) | `no`      | Props for request `non-personalized` ads, [read more](https://support.google.com/adsense/answer/9042142?hl=en&ref_topic=7670012) |
-| is-new-ads-code | String (`yes` or `no`) | `no`      | Use new Adsense code (per 19 july 2021), [read more](https://support.google.com/adsense/answer/10627874) |
+| `is-new-ads-code` | String (`yes` or `no`) | `no`      | Use new Adsense code (per 19 july 2021), [read more](https://support.google.com/adsense/answer/10627874) |
 
 ## :metal: Who is using this library
 
