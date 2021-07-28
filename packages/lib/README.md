@@ -141,17 +141,18 @@ Vue.use(Ads.AutoAdsense, { adClient: 'YOUR_GOOGLE_AD_CLIENT', isNewAdsCode: true
 
 | Attribute          | Type        |Default       | Description                          	  |
 |------------------- |------------ |--------------|---------------------------------------	|
-| root-class         | String      | `adswrapper` | Class for fill in wrapper block          |
-| ins-class          | String      | `empty`      | Class for fill in `ins` tag              |
-| ins-style          | String      | `display:block;` | Style for fill in `ins` tag          |
-| data-ad-client     | String      | `empty`      | Attribute `data-ad-client` from adsense |
-| data-ad-slot       | String      | `empty`      | Attribute `data-ad-slot` from adsense   |
-| data-ad-layout-key | String      | `empty`      | Attribute `data-ad-layout-key` from adsense |
-| data-ad-test       | String      | `empty`      | Attribute `data-ad-test` from adsense |
-| data-ad-format     | String      | `auto` for Adsense Ads<br> `fluid` for InFeed and InArticle Ads | Attribute `data-ad-format` from adsense <br> Possible values are `auto`, `horizontal`, `vertical`, `rectangle` or `fluid` |
-| data-full-width-responsive | String (`yes` or `no`) | `no`  | Attribute `data-full-width-responsive` from adsense |
-| is-non-personalized-ads | String (`yes` or `no`) | `no`      | Props for request `non-personalized` ads, [read more](https://support.google.com/adsense/answer/9042142?hl=en&ref_topic=7670012) |
+| `root-class`         | String      | `adswrapper` | Class for fill in wrapper block          |
+| `ins-class`          | String      | `empty`      | Class for fill in `ins` tag              |
+| `ins-style`          | String      | `display:block;` | Style for fill in `ins` tag          |
+| `data-ad-client`     | String      | `empty`      | Attribute `data-ad-client` from adsense |
+| `data-ad-slot`       | String      | `empty`      | Attribute `data-ad-slot` from adsense   |
+| `data-ad-layout-key` | String      | `empty`      | Attribute `data-ad-layout-key` from adsense |
+| `data-ad-test`       | String      | `empty`      | Attribute `data-ad-test` from adsense |
+| `data-ad-format`     | String      | `auto` for Adsense Ads<br> `fluid` for InFeed and InArticle Ads | Attribute `data-ad-format` from adsense <br> Possible values are `auto`, `horizontal`, `vertical`, `rectangle` or `fluid` |
+| `data-full-width-responsive` | String (`yes` or `no`) | `no`  | Attribute `data-full-width-responsive` from adsense |
+| `is-non-personalized-ads` | String (`yes` or `no`) | `no`      | Props for request `non-personalized` ads, [read more](https://support.google.com/adsense/answer/9042142?hl=en&ref_topic=7670012) |
 | `is-new-ads-code` | String (`yes` or `no`) | `no`      | Use new Adsense code (per 19 july 2021), [read more](https://support.google.com/adsense/answer/10627874) |
+| `data-ad-region` | String | `empty`      | See PR [#163](https://github.com/mazipan/vue-google-adsense/pull/163) |
 
 ## :metal: Who is using this library
 
