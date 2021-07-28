@@ -1,14 +1,25 @@
 import constant from '../utils/constant'
 
+interface AutoAdsenseParam {
+  adClient: string;
+  isNewAdsCode: boolean;
+}
+
 const AutoAdsense = {
-  install: (Vue, { adClient = '' }) => {
+  install: (Vue, { adClient = '', isNewAdsCode = false }: AutoAdsenseParam) => {
     if (!adClient) {
       return Error('AutoAdsense require "adClient" parameter')
     }
     const head = document.head;
     const s = document.createElement('script')
     s.type = 'text/javascript';
-    s.src = constant.ADS_SCRIPT;
+    s.async = true;
+    if (isNewAdsCode) {
+      s.crossOrigin = 'anonymous'
+      s.src = `${constant.ADS_SCRIPT}?client=${adClient}`;
+    } else {
+      s.src = constant.ADS_SCRIPT;
+    }
     s.onload = () => {
       // @ts-ignore
       (adsbygoogle = window.adsbygoogle || []).push({

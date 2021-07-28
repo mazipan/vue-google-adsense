@@ -1,6 +1,13 @@
 <template>
   <div :class="rootClass">
-    <script2 type="text/javascript" async="true" :src="ADS_SCRIPT" />
+
+    <template v-if="isNewAdsCode === 'yes'">
+      <script2 type="text/javascript" async="true" :src="`${ADS_SCRIPT}?client=${dataAdClient}`" crossorigin="anonymous" />
+    </template>
+    <template v-if="isNewAdsCode === 'no'">
+      <script2 type="text/javascript" async="true" :src="ADS_SCRIPT" />
+    </template>
+
     <ins
       :class="insClass"
       class="adsbygoogle"

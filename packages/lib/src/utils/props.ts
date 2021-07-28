@@ -43,4 +43,10 @@ export default {
     type: String,
     default: ''
   },
+  // Read: https://support.google.com/adsense/answer/10627874
+  // Issue: https://github.com/mazipan/vue-google-adsense/issues/164
+  isNewAdsCode: {
+    type: String,
+    default: 'no'
+  },
 }
