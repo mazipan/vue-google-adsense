@@ -10,7 +10,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"@chakra-ui/vue": "^0.6.5",
+		"@chakra-ui/vue": "^0.9.4",
 		"emotion": "^10.0.27"
 	},
 	"devDependencies": {
