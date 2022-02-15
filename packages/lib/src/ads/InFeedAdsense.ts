@@ -1,9 +1,9 @@
 import InFeedAdsenseComponent from './InFeedAdsenseComponent.vue'
 
 const InFeedAdsense = {
-  install: Vue => {
-    Vue.component('InFeedAdsense', InFeedAdsenseComponent)
-  }
+  install: (app, options) => {
+    app.component('InFeedAdsense', InFeedAdsenseComponent)
+  },
 }
 
 export default InFeedAdsense

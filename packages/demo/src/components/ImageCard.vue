@@ -24,16 +24,8 @@
 </template>
 
 <script>
-import { CBox, CImage, CBadge, CIcon } from '@chakra-ui/vue'
-
 export default {
   name: 'ImageCard',
-  components: {
-    CBox,
-    CImage,
-    CBadge,
-    CIcon,
-  },
   data() {
     return {
       property: {

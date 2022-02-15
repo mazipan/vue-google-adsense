@@ -1,9 +1,9 @@
 import InArticleAdsenseComponent from './InArticleAdsenseComponent.vue'
 
 const InArticleAdsense = {
-  install: Vue => {
-    Vue.component('InArticleAdsense', InArticleAdsenseComponent)
-  }
+  install: (app, options) => {
+    app.component('InArticleAdsense', InArticleAdsenseComponent)
+  },
 }
 
 export default InArticleAdsense
