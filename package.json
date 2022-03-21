@@ -1,6 +1,6 @@
 {
   "name": "@vue-google-adsense/monorepo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": false,
   "description": "Vue.js Google Adsense Component with InFeed and InArticle Ads support",
   "keywords": [
