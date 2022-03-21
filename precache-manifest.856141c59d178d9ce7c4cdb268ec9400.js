@@ -12,16 +12,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-google-adsense/apple-touch-icon.png"
   },
   {
-    "revision": "d63a1c274e26e94787e4",
-    "url": "/vue-google-adsense/css/app.d738855a.css"
+    "revision": "2e304b367ab2ed3988ff",
+    "url": "/vue-google-adsense/css/app.d53675ef.css"
   },
   {
-    "revision": "ccae523b183790689f7d",
-    "url": "/vue-google-adsense/css/in-article.d738855a.css"
+    "revision": "919eefcf93d17fc24ee7",
+    "url": "/vue-google-adsense/css/chunk-vendors.cb7826a5.css"
   },
   {
-    "revision": "d9d8c469f5a2fba97e30",
-    "url": "/vue-google-adsense/css/in-feed.d738855a.css"
+    "revision": "4d4a4bcd45cd24d69603",
+    "url": "/vue-google-adsense/css/in-article.d53675ef.css"
+  },
+  {
+    "revision": "dec80237e6efa78ecac1",
+    "url": "/vue-google-adsense/css/in-feed.d53675ef.css"
   },
   {
     "revision": "88ca479ff41e620c9c3b3b02dbf67f15",
@@ -32,27 +36,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-google-adsense/favicon-32x32.png"
   },
   {
-    "revision": "75df3e8a00977b68abb30606991e3e9d",
+    "revision": "23612ff7ec5009a5c0fa739e9ad572e6",
     "url": "/vue-google-adsense/index.html"
   },
   {
-    "revision": "d63a1c274e26e94787e4",
-    "url": "/vue-google-adsense/js/app.6180ebe8.js"
+    "revision": "2e304b367ab2ed3988ff",
+    "url": "/vue-google-adsense/js/app.23a4edac.js"
   },
   {
-    "revision": "9054efc73ab281cebb21",
-    "url": "/vue-google-adsense/js/chunk-vendors.fcca1fcc.js"
+    "revision": "919eefcf93d17fc24ee7",
+    "url": "/vue-google-adsense/js/chunk-vendors.f40f3dfa.js"
   },
   {
-    "revision": "ccae523b183790689f7d",
-    "url": "/vue-google-adsense/js/in-article.b81fa765.js"
+    "revision": "4d4a4bcd45cd24d69603",
+    "url": "/vue-google-adsense/js/in-article.75c5964e.js"
   },
   {
-    "revision": "d9d8c469f5a2fba97e30",
-    "url": "/vue-google-adsense/js/in-feed.b2a9c0de.js"
+    "revision": "dec80237e6efa78ecac1",
+    "url": "/vue-google-adsense/js/in-feed.fafa28ca.js"
   },
   {
-    "revision": "897a18074612fcc2a6788208f3a18668",
+    "revision": "1a6b8a08d8acdc765fa5c12ff3b566f9",
     "url": "/vue-google-adsense/manifest.json"
   },
   {

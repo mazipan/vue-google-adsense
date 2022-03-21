@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vue-google-adsense/precache-manifest.ef591e33cb82a3dc37559bec87cb5092.js"
+  "/vue-google-adsense/precache-manifest.856141c59d178d9ce7c4cdb268ec9400.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "demo"});
+workbox.core.setCacheNameDetails({prefix: "@vue-google-adsense/demo"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
