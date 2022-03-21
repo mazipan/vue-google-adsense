@@ -4,6 +4,12 @@
 
 > Vue.js Google Adsense Component with InFeed and InArticle Ads support
 
+## Vue 2
+
+You are seing `vue-google-adsense@2.x.x` which ONLY compatible for Vue 3, if you want to support Vue 2, please use `vue-google-adsense@1.x.x`.
+
+Documentation for `vue-google-adsense@1.x.x` can be found on the branch [v1-for-vue2](https://github.com/mazipan/vue-google-adsense/tree/v1-for-vue2)
+
 ## 🎉 Demo
 
 https://mazipan.github.io/vue-google-adsense/
@@ -25,7 +31,7 @@ At least there is three (3) type ads in Google Adsense :
 Need dependencies [vue-scriptx](https://www.npmjs.com/package/vue-scriptx), you need to install :
 
 ```javascript
-npm install vue-scriptx vue-google-adsense --save
+npm install vue-scriptx vue-google-adsense@next --save
 ```
 
 ### Use in `main.js`

@@ -21,8 +21,6 @@
 		"vue-scriptx": "^0.2.5"
 	},
 	"devDependencies": {
-		"@types/bluebird": "^3.5.36",
-		"@types/node": "^15.0.2",
 		"@vue/compiler-sfc": "^3.2.31",
 		"bili": "5.0.5",
 		"rollup": "^2.67.2",
