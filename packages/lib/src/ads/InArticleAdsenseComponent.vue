@@ -1,11 +1,10 @@
 <template>
   <div :class="rootClass">
-
     <template v-if="isNewAdsCode === 'yes'">
-      <script2 type="text/javascript" async="true" :src="`${ADS_SCRIPT}?client=${dataAdClient}`" crossorigin="anonymous" />
+      <scriptx type="text/javascript" async="true" :src="`${ADS_SCRIPT}?client=${dataAdClient}`" crossorigin="anonymous" />
     </template>
     <template v-if="isNewAdsCode === 'no'">
-      <script2 type="text/javascript" async="true" :src="ADS_SCRIPT" />
+      <scriptx type="text/javascript" async="true" :src="ADS_SCRIPT" />
     </template>
 
     <ins
@@ -21,12 +20,12 @@
       :data-full-width-responsive="dataFullWidthResponsive === 'yes'"
     />
     <template v-if="isNonPersonalizedAds === 'yes'">
-      <script2 type="text/javascript">
+      <scriptx type="text/javascript">
         (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1; (adsbygoogle = window.adsbygoogle || []).push({});
-      </script2>
+      </scriptx>
     </template>
     <template v-if="isNonPersonalizedAds === 'no'">
-      <script2 type="text/javascript"> (adsbygoogle = window.adsbygoogle || []).push({}); </script2>
+      <scriptx type="text/javascript"> (adsbygoogle = window.adsbygoogle || []).push({}); </scriptx>
     </template>
   </div>
 </template>
