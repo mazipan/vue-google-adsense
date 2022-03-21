@@ -4,6 +4,12 @@
 
 > Vue.js Google Adsense Component with InFeed and InArticle Ads support
 
+## Vue 2
+
+You are seing `vue-google-adsense@2.x.x` which ONLY compatible for Vue 3, if you want to support Vue 2, please use `vue-google-adsense@1.x.x`.
+
+Documentation for `vue-google-adsense@1.x.x` can be found on the branch [v1-for-vue2](https://github.com/mazipan/vue-google-adsense/tree/v1-for-vue2)
+
 ## 🎉 Demo
 
 https://mazipan.github.io/vue-google-adsense/
@@ -22,22 +28,22 @@ At least there is three (3) type ads in Google Adsense :
 
 ### Installation
 
-Need dependencies [vue-script2](https://github.com/taoeffect/vue-script2), you need to install :
+Need dependencies [vue-scriptx](https://www.npmjs.com/package/vue-scriptx), you need to install :
 
 ```javascript
-npm install vue-script2 vue-google-adsense --save
+npm install vue-scriptx vue-google-adsense@next --save
 ```
 
 ### Use in `main.js`
 
 ```javascript
+import ScriptX from 'vue-scriptx'
+app.use(ScriptX)
+
 import Ads from 'vue-google-adsense'
-
-Vue.use(require('vue-script2'))
-
-Vue.use(Ads.Adsense)
-Vue.use(Ads.InArticleAdsense)
-Vue.use(Ads.InFeedAdsense)
+app.use(Ads.Adsense)
+app.use(Ads.InArticleAdsense)
+app.use(Ads.InFeedAdsense)
 ```
 
 ### Use partial import
@@ -49,11 +55,12 @@ import Adsense from 'vue-google-adsense/dist/Adsense.min.js'
 import InArticleAdsense from 'vue-google-adsense/dist/InArticleAdsense.min.js'
 import InFeedAdsense from 'vue-google-adsense/dist/InFeedAdsense.min.js'
 
-Vue.use(require('vue-script2'))
+import ScriptX from 'vue-scriptx'
+app.use(ScriptX)
 
-Vue.use(Adsense)
-Vue.use(InArticleAdsense)
-Vue.use(InFeedAdsense)
+app.use(Adsense)
+app.use(InArticleAdsense)
+app.use(InFeedAdsense)
 ```
 
 ### Usage in Nuxt.js
@@ -129,12 +136,11 @@ VueInFeedAdsense Template :
 ### Auto Ads Usage
 
 ```js
-import Vue from 'vue'
+import ScriptX from 'vue-scriptx'
+app.use(ScriptX)
+
 import Ads from 'vue-google-adsense'
-
-Vue.use(require('vue-script2'))
-
-Vue.use(Ads.AutoAdsense, { adClient: 'YOUR_GOOGLE_AD_CLIENT', isNewAdsCode: true })
+app.use(Ads.AutoAdsense, { adClient: 'YOUR_GOOGLE_AD_CLIENT', isNewAdsCode: true })
 ```
 
 ## :gift: Available Props

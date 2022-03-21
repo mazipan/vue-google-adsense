@@ -6,11 +6,11 @@ const config: Config = {
     'src/ads/Adsense.ts',
     'src/ads/AutoAdsense.ts',
     'src/ads/InArticleAdsense.ts',
-    'src/ads/InFeedAdsense.ts'
+    'src/ads/InFeedAdsense.ts',
   ],
   plugins: {
-    vue: true
-  }
+    vue: true,
+  },
 }
 
 export default config

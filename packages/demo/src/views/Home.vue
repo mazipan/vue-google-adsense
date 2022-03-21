@@ -5,20 +5,21 @@
     </section>
 
     <section class="container ads">
-      <c-flex align="center" justify="center" direction="column">
-        <c-box w="100%" border-width="1px" rounded="lg" overflow="hidden">
+      <b-row align="center" justify="center" direction="column">
+        <b-card w="100%" border-width="1px" rounded="lg" overflow="hidden">
           <Adsense
-            style="width: 100%; min-width: 250px;"
+            style="width: 100%; min-width: 250px"
             ins-style="display:inline-block;width:728px;height:90px"
             data-ad-client="ca-pub-5442972248172818"
-            data-ad-slot="7319719723">
+            data-ad-slot="7319719723"
+          >
           </Adsense>
-        </c-box>
-      </c-flex>
+        </b-card>
+      </b-row>
     </section>
 
     <section class="container">
-      <c-stack :spacing="5">
+      <b-card :spacing="5">
         <Box
           title="Default Adsense"
           description="A simple way to get ads on your page. Choose the size, placement and style you want to display."
@@ -39,31 +40,26 @@
           link="https://support.google.com/adsense/answer/7171765?hl=en_GB"
           demo="/in-feed/"
         />
-      </c-stack>
+      </b-card>
     </section>
 
     <section class="container ads">
-      <c-flex align="center" justify="center" direction="column">
-        <c-box w="100%" border-width="1px" rounded="lg" overflow="hidden">
-          <InArticleAdsense
-            style="width: 100%; min-width: 250px;"
-            data-ad-client="ca-pub-5442972248172818"
-            data-ad-slot="7974047383"
-          />
-        </c-box>
-      </c-flex>
+      <b-row align="center" justify="center" direction="column">
+        <b-card w="100%" border-width="1px" rounded="lg" overflow="hidden">
+          <InArticleAdsense style="width: 100%; min-width: 250px" data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+        </b-card>
+      </b-row>
     </section>
 
     <footer class="footer">
-      <c-flex m="2" align="center" justify="center">
-        <c-text textAlign="center">Built with ❤️ by <a href="https://mazipan.space">Irfan Maulana</a></c-text>
-      </c-flex>
+      <b-row m="2" align="center" justify="center">
+        <p textAlign="center">Built with ❤️ by <a href="https://mazipan.space">Irfan Maulana</a></p>
+      </b-row>
     </footer>
   </div>
 </template>
 
 <script lang="js">
-import { CFlex, CText, CStack } from '@chakra-ui/vue'
 import HeaderComponent from '../components/Header'
 import Box from '../components/Box'
 
@@ -71,10 +67,7 @@ export default {
   name: 'Home',
   components: {
     HeaderComponent,
-    Box,
-    CFlex,
-    CText,
-    CStack,
+    Box
   },
   data () {
     return {

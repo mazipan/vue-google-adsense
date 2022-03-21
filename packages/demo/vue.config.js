@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: '/vue-google-adsense',
   pwa: {
-    themeColor: '#000'
-  }
+    themeColor: '#000',
+  },
 }

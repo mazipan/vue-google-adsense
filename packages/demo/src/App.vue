@@ -1,18 +1,9 @@
 <template>
-  <c-theme-provider>
-    <c-reset />
-    <router-view />
-  </c-theme-provider>
+  <router-view />
 </template>
 
 <script>
-import { CThemeProvider, CReset } from '@chakra-ui/vue'
-
 export default {
   name: 'App',
-  components: {
-    CThemeProvider,
-    CReset
-  }
 }
 </script>

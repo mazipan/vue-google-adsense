@@ -1,5 +1,5 @@
 export default (target, varArgs) => {
-  const to = Object(target);
+  const to = Object(target)
 
   for (const nextKey in varArgs) {
     // Avoid bugs when hasOwnProperty is shadowed

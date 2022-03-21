@@ -1,9 +1,9 @@
 <template>
   <div class="home VueCurrencyFilter">
     <section class="container hero">
-      <c-flex mb="4" align="center" justify="center" direction="column">
-        <c-text as="h1" fontSize="5xl">In Feed Adsense</c-text>
-      </c-flex>
+      <b-row mb="4" align="center" justify="center" direction="column">
+        <h1 as="h1" fontSize="5xl">In Feed Adsense</h1>
+      </b-row>
     </section>
 
     <section class="container ads">
@@ -63,28 +63,28 @@
     </section>
 
     <section class="container ads">
-      <c-flex align="center" justify="center" direction="column">
+      <b-row align="center" justify="center" direction="column">
         <c-box w="100%" border-width="1px" rounded="lg" overflow="hidden">
           <Adsense
-            style="width: 100%; min-width: 250px;"
+            style="width: 100%; min-width: 250px"
             ins-style="display:inline-block;width:728px;height:90px"
             data-ad-client="ca-pub-5442972248172818"
-            data-ad-slot="7319719723">
+            data-ad-slot="7319719723"
+          >
           </Adsense>
         </c-box>
-      </c-flex>
+      </b-row>
     </section>
 
     <footer class="footer">
-      <c-flex m="2" align="center" justify="center">
-        <c-text textAlign="center">Built with ❤️ by <a href="https://mazipan.space">Irfan Maulana</a></c-text>
-      </c-flex>
+      <b-row m="2" align="center" justify="center">
+        <p textAlign="center">Built with ❤️ by <a href="https://mazipan.space">Irfan Maulana</a></p>
+      </b-row>
     </footer>
   </div>
 </template>
 
 <script lang="js">
-import { CBox, CFlex, CText, CStack } from '@chakra-ui/vue'
 import Box from '../components/Box'
 import ImageCard from '../components/ImageCard'
 
@@ -92,11 +92,7 @@ export default {
   name: 'InFeed',
   components: {
     Box,
-    ImageCard,
-    CBox,
-    CFlex,
-    CText,
-    CStack,
+    ImageCard
   },
   data () {
     return {

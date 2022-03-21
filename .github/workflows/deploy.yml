@@ -1,4 +1,4 @@
-name: "Build and Deploy"
+name: 'Build and Deploy'
 
 on:
   push:
@@ -14,22 +14,31 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
+      - name: Cache turbo dir
+        id: turbo-cache
+        uses: actions/cache@v2
+        with:
+          path: .turbo
+          key: turbo-lite-packages-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            turbo-lite-packages-${{ runner.os }}-
+
       - name: Cache pnpm modules
         uses: actions/cache@v2
-        env:
-          cache-name: cache-pnpm-modules
         with:
           path: ~/.pnpm-store
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-${{ hashFiles('**/package.json') }}
+          key: pnpm6-lite-packages-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-
+            pnpm6-lite-packages-${{ runner.os }}-
+
       - name: pnpm install recursive
-        uses: pnpm/action-setup@v1.2.1
+        uses: pnpm/action-setup@v2.2.1
         with:
-          version: 5.17.2
+          version: 6.32.3
           run_install: |
             - recursive: true
               args: [--frozen-lockfile]
+
       - name: Build library
         run: pnpm run build:lib
 
