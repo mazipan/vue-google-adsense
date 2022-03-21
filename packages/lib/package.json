@@ -22,6 +22,8 @@
 	},
 	"devDependencies": {
 		"@vue/compiler-sfc": "^3.2.31",
+		"@types/bluebird": "^3.5.36",
+		"@types/node": "^14.18.12",
 		"bili": "5.0.5",
 		"rollup": "^2.67.2",
 		"rollup-plugin-typescript2": "^0.31.2",
