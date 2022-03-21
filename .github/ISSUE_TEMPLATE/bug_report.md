@@ -1,35 +1,20 @@
 ---
-name: "\U0001F41B Bug/error report"
-about: Help us report any bugs/errors you found
-title: "\U0001F41B Bug - Name of bug"
-labels: 'bug'
-assignees: '@mazipan'
+name: Bug Report
+about: Something's not working as expected.
+title: ''
+labels: bug
+assignees: mazipan
+
 ---
 
-**A brief description about the bug/error**
+## Description
 
-Please add a description for the bug/error
+<!-- Describe the issue that you're seeing. -->
 
-**Config you use**
+## Expected Behaviour
 
-Here is the config that I use:
+<!-- What should've happened? -->
 
-```js
-{
-  symbol: "$",
-  thousandsSeparator: ",",
-  fractionCount: 2,
-  fractionSeparator: ".",
-  symbolPosition: "front",
-  symbolSpacing: true,
-  avoidEmptyDecimals: '##',
-}
-```
+## Additional Information
 
-**Existing vs Expectation**
-
-Please explain the existing condition and add an expectation do you want
-
-**Screenshoot**
-
-Attach screenshoot if neccessary
+<!-- (Optional) Any additional info that you think might come in handy for debugging. -->
