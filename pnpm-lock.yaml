@@ -12,6 +12,7 @@ importers:
       '@typescript-eslint/eslint-plugin': 4.22.1
       '@typescript-eslint/parser': 4.22.1
       '@vue/cli-plugin-eslint': 4.5.12
+      '@vue/cli-service': ~4.5.15
       '@vue/eslint-config-prettier': ^7.0.0
       '@vue/eslint-config-standard': 6.0.0
       '@vue/eslint-config-typescript': 7.0.0
@@ -36,9 +37,10 @@ importers:
       '@babel/preset-env': 7.16.11_@babel+core@7.17.2
       '@typescript-eslint/eslint-plugin': 4.22.1_7d82cd484c08680b275b91944ca29a17
       '@typescript-eslint/parser': 4.22.1_eslint@7.32.0+typescript@4.2.4
-      '@vue/cli-plugin-eslint': 4.5.12_eslint@7.32.0
+      '@vue/cli-plugin-eslint': 4.5.12_62e16dd60e13dba96d3ac430272b4676
+      '@vue/cli-service': 4.5.15_typescript@4.2.4
       '@vue/eslint-config-prettier': 7.0.0_eslint@7.32.0+prettier@2.5.1
-      '@vue/eslint-config-standard': 6.0.0_4d2783d2c5a14b221181556800ed22fd
+      '@vue/eslint-config-standard': 6.0.0_294976639fce19fd22142067215e9495
       '@vue/eslint-config-typescript': 7.0.0_d1dd3c5e8ea2d681efc64cf0516a3465
       eslint: 7.32.0
       eslint-config-prettier: 8.3.0_eslint@7.32.0
@@ -118,7 +120,7 @@ importers:
   packages/lib:
     specifiers:
       '@types/bluebird': ^3.5.36
-      '@types/node': ^15.0.2
+      '@types/node': ^14.18.12
       '@vue/compiler-sfc': ^3.2.31
       bili: 5.0.5
       rollup: ^2.67.2
@@ -129,11 +131,11 @@ importers:
       vue: ^3.0.0
     devDependencies:
       '@types/bluebird': 3.5.36
-      '@types/node': 15.0.2
+      '@types/node': 14.18.12
       '@vue/compiler-sfc': 3.2.31
       bili: 5.0.5
       rollup: 2.67.2
-      rollup-plugin-typescript2: 0.31.2_929131fe9099d8d32ca036cc636c157b
+      rollup-plugin-typescript2: 0.31.2_614684d3c4073b4abb93baaa5231d501
       rollup-plugin-vue: 6.0.0_@vue+compiler-sfc@3.2.31
       ts-toolbelt: 9.6.0
       tslib: 2.0.1
@@ -2601,7 +2603,7 @@ packages:
     resolution: {integrity: sha512-T7VNNlYVM1SgQ+VsMYhnDkcGmWhQdL0bDyGm5TlQ3GBXnJscEClUUOKduWTmm2zCnvNLC1hc3JpuXjs/nFOc5w==}
     dev: true
 
-  /@ts-type/package-dts/1.0.58_c5def1868ff5ccee3828885dfd4a1904:
+  /@ts-type/package-dts/1.0.58_40b052fcc472fb25f6e0ba5408d5c97a:
     resolution: {integrity: sha512-Ry5RPZDAnSz/gyLtjd2a2yNC07CZ/PCOsuDzYj3phOolIgEH68HXRw6SbsDlavnVUEenDYj5GUM10gQ5iVEbVQ==}
     peerDependencies:
       '@types/bluebird': '*'
@@ -2609,10 +2611,10 @@ packages:
       ts-toolbelt: '*'
     dependencies:
       '@types/bluebird': 3.5.36
-      '@types/node': 15.0.2
+      '@types/node': 14.18.12
       '@types/semver': 7.3.9
       ts-toolbelt: 9.6.0
-      ts-type: 2.1.4_c5def1868ff5ccee3828885dfd4a1904
+      ts-type: 2.1.4_40b052fcc472fb25f6e0ba5408d5c97a
     dev: true
 
   /@types/anymatch/1.3.1:
@@ -2741,8 +2743,8 @@ packages:
     resolution: {integrity: sha512-jiE3QIxJ8JLNcb1Ps6rDbysDhN4xa8DJJvuC9prr6w+1tIh+QAbYyNF3tyiZNLDBIuBCf4KEcV2UvQm/V60xfA==}
     dev: true
 
-  /@types/node/15.0.2:
-    resolution: {integrity: sha512-p68+a+KoxpoB47015IeYZYRrdqMUcpbK8re/zpFB8Ld46LHC1lPEbp3EXgkEhAYEcPvjJF6ZO+869SQ0aH1dcA==}
+  /@types/node/14.18.12:
+    resolution: {integrity: sha512-q4jlIR71hUpWTnGhXWcakgkZeHa3CCjcQcnuzU8M891BAWA2jHiziiWEPEkdS5pFsz7H9HJiy8BrK7tBRNrY7A==}
     dev: true
 
   /@types/node/17.0.18:
@@ -2773,7 +2775,7 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 14.11.2
+      '@types/node': 17.0.18
     dev: true
 
   /@types/semver/7.3.9:
@@ -3111,12 +3113,13 @@ packages:
       - webpack-command
     dev: true
 
-  /@vue/cli-plugin-eslint/4.5.12_eslint@7.32.0:
+  /@vue/cli-plugin-eslint/4.5.12_62e16dd60e13dba96d3ac430272b4676:
     resolution: {integrity: sha512-nbjGJkWxo/xdD32DwvnEAUwkWYsObpqNk9NuU7T62ehdzHPzz58o3j03YZ7a7T7Le8bYyOWMYsdNfz63F+XiZQ==}
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
       eslint: '>= 1.6.0 < 7.0.0'
     dependencies:
+      '@vue/cli-service': 4.5.15_typescript@4.2.4
       '@vue/cli-shared-utils': 4.5.15
       eslint: 7.32.0
       eslint-loader: 2.2.1_eslint@7.32.0+webpack@4.46.0
@@ -3284,6 +3287,98 @@ packages:
       - webpack-command
     dev: true
 
+  /@vue/cli-service/4.5.15_typescript@4.2.4:
+    resolution: {integrity: sha512-sFWnLYVCn4zRfu45IcsIE9eXM0YpDV3S11vlM2/DVbIPAGoYo5ySpSof6aHcIvkeGsIsrHFpPHzNvDZ/efs7jA==}
+    engines: {node: '>=8'}
+    hasBin: true
+    peerDependencies:
+      '@vue/compiler-sfc': ^3.0.0-beta.14
+      less-loader: '*'
+      pug-plain-loader: '*'
+      raw-loader: '*'
+      sass-loader: '*'
+      stylus-loader: '*'
+      vue-template-compiler: ^2.0.0
+    peerDependenciesMeta:
+      '@vue/compiler-sfc':
+        optional: true
+      less-loader:
+        optional: true
+      pug-plain-loader:
+        optional: true
+      raw-loader:
+        optional: true
+      sass-loader:
+        optional: true
+      stylus-loader:
+        optional: true
+      vue-template-compiler:
+        optional: true
+    dependencies:
+      '@intervolga/optimize-cssnano-plugin': 1.0.6_webpack@4.44.2
+      '@soda/friendly-errors-webpack-plugin': 1.7.1_webpack@4.44.2
+      '@soda/get-current-script': 1.0.2
+      '@types/minimist': 1.2.0
+      '@types/webpack': 4.41.22
+      '@types/webpack-dev-server': 3.11.0
+      '@vue/cli-overlay': 4.5.15
+      '@vue/cli-plugin-router': 4.5.15_@vue+cli-service@4.5.15
+      '@vue/cli-plugin-vuex': 4.5.15_@vue+cli-service@4.5.15
+      '@vue/cli-shared-utils': 4.5.15
+      '@vue/component-compiler-utils': 3.2.0
+      '@vue/preload-webpack-plugin': 1.1.2_e19cda6b5f21e6c518504c22be752ae4
+      '@vue/web-component-wrapper': 1.2.0
+      acorn: 7.4.1
+      acorn-walk: 7.2.0
+      address: 1.1.2
+      autoprefixer: 9.8.6
+      browserslist: 4.19.1
+      cache-loader: 4.1.0_webpack@4.44.2
+      case-sensitive-paths-webpack-plugin: 2.3.0
+      cli-highlight: 2.1.4
+      clipboardy: 2.3.0
+      cliui: 6.0.0
+      copy-webpack-plugin: 5.1.2_webpack@4.44.2
+      css-loader: 3.6.0_webpack@4.44.2
+      cssnano: 4.1.10
+      debug: 4.3.3
+      default-gateway: 5.0.5
+      dotenv: 8.2.0
+      dotenv-expand: 5.1.0
+      file-loader: 4.3.0_webpack@4.44.2
+      fs-extra: 7.0.1
+      globby: 9.2.0
+      hash-sum: 2.0.0
+      html-webpack-plugin: 3.2.0_webpack@4.44.2
+      launch-editor-middleware: 2.2.1
+      lodash.defaultsdeep: 4.6.1
+      lodash.mapvalues: 4.6.0
+      lodash.transform: 4.6.0
+      mini-css-extract-plugin: 0.9.0_webpack@4.44.2
+      minimist: 1.2.5
+      pnp-webpack-plugin: 1.6.4_typescript@4.2.4
+      portfinder: 1.0.28
+      postcss-loader: 3.0.0
+      ssri: 8.0.1
+      terser-webpack-plugin: 1.4.5_webpack@4.44.2
+      thread-loader: 2.1.3_webpack@4.44.2
+      url-loader: 2.3.0_file-loader@4.3.0+webpack@4.44.2
+      vue-loader: 15.9.3_2caee5c6214e69e94882edccc4bf5105
+      vue-style-loader: 4.1.2
+      webpack: 4.44.2
+      webpack-bundle-analyzer: 3.9.0
+      webpack-chain: 6.5.1
+      webpack-dev-server: 3.11.0_webpack@4.44.2
+      webpack-merge: 4.2.2
+    optionalDependencies:
+      vue-loader-v16: /vue-loader/16.8.3_webpack@4.44.2
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+      - webpack-cli
+      - webpack-command
+    dev: true
+
   /@vue/cli-shared-utils/4.5.15:
     resolution: {integrity: sha512-SKaej9hHzzjKSOw1NlFmc6BSE0vcqUQMQiv1cxQ2DhVyy4QxZXBmzmiLBUBe+hYZZs1neXW7n//udeN9bCAY+Q==}
     dependencies:
@@ -3370,7 +3465,7 @@ packages:
       prettier: 2.5.1
     dev: true
 
-  /@vue/eslint-config-standard/6.0.0_4d2783d2c5a14b221181556800ed22fd:
+  /@vue/eslint-config-standard/6.0.0_294976639fce19fd22142067215e9495:
     resolution: {integrity: sha512-1hIkQDMkZBxqlVITckUpcBvRMiWC/Bupc1qh8JkMSgP5vvB7fpGXprblj3ivXrKK9TCpKpy5pqnBKEFKTNfoow==}
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0 || ^5.0.0-0
@@ -3383,6 +3478,7 @@ packages:
       '@vue/cli-service':
         optional: true
     dependencies:
+      '@vue/cli-service': 4.5.15_typescript@4.2.4
       eslint: 7.32.0
       eslint-config-standard: 16.0.3_bbd2f5a170b047d36bf1753b71f96895
       eslint-import-resolver-node: 0.3.6
@@ -3714,16 +3810,16 @@ packages:
     resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
     dev: true
 
-  /@yarn-tool/resolve-package/1.0.42_c5def1868ff5ccee3828885dfd4a1904:
+  /@yarn-tool/resolve-package/1.0.42_40b052fcc472fb25f6e0ba5408d5c97a:
     resolution: {integrity: sha512-1BAsoiD6jGAaPc7mRH0UxIVXgRSTv7fnhwfKkaFUYpqsU4ZR7KIigZTMcb2bujtlzKQbNneMPQGjiqe3F8cmlw==}
     peerDependencies:
       '@types/node': '*'
     dependencies:
-      '@ts-type/package-dts': 1.0.58_c5def1868ff5ccee3828885dfd4a1904
-      '@types/node': 15.0.2
+      '@ts-type/package-dts': 1.0.58_40b052fcc472fb25f6e0ba5408d5c97a
+      '@types/node': 14.18.12
       pkg-dir: 5.0.0
       tslib: 2.3.1
-      upath2: 3.1.12_@types+node@15.0.2
+      upath2: 3.1.12_@types+node@14.18.12
     transitivePeerDependencies:
       - '@types/bluebird'
       - ts-toolbelt
@@ -8192,7 +8288,7 @@ packages:
     resolution: {integrity: sha512-Vmpn2F6IASefL+DVBhPzI2J9/GJUsqzomdeN+P+dK8/jKxbh8R3BtFnx3FIta7wYlPU62cpJMJQo4kuOowcMnw==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 14.11.2
+      '@types/node': 17.0.18
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -9796,6 +9892,15 @@ packages:
       - typescript
     dev: true
 
+  /pnp-webpack-plugin/1.6.4_typescript@4.2.4:
+    resolution: {integrity: sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==}
+    engines: {node: '>=6'}
+    dependencies:
+      ts-pnp: 1.2.0_typescript@4.2.4
+    transitivePeerDependencies:
+      - typescript
+    dev: true
+
   /portfinder/1.0.28:
     resolution: {integrity: sha512-Se+2isanIcEqf2XMHjyUKskczxbPH7dQnlMjXX6+dybayyHvAf/TCgyMRlzf/B6QDhAEFOGes0pzRo3by4AbMA==}
     engines: {node: '>= 0.12.0'}
@@ -10818,14 +10923,14 @@ packages:
       terser: 4.8.0
     dev: true
 
-  /rollup-plugin-typescript2/0.31.2_929131fe9099d8d32ca036cc636c157b:
+  /rollup-plugin-typescript2/0.31.2_614684d3c4073b4abb93baaa5231d501:
     resolution: {integrity: sha512-hRwEYR1C8xDGVVMFJQdEVnNAeWRvpaY97g5mp3IeLnzhNXzSVq78Ye/BJ9PAaUfN4DXa/uDnqerifMOaMFY54Q==}
     peerDependencies:
       rollup: '>=1.26.3'
       typescript: '>=2.4.0'
     dependencies:
       '@rollup/pluginutils': 4.1.2
-      '@yarn-tool/resolve-package': 1.0.42_c5def1868ff5ccee3828885dfd4a1904
+      '@yarn-tool/resolve-package': 1.0.42_40b052fcc472fb25f6e0ba5408d5c97a
       find-cache-dir: 3.3.2
       fs-extra: 10.0.0
       resolve: 1.22.0
@@ -11972,11 +12077,23 @@ packages:
       typescript: 4.1.6
     dev: true
 
+  /ts-pnp/1.2.0_typescript@4.2.4:
+    resolution: {integrity: sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==}
+    engines: {node: '>=6'}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      typescript: 4.2.4
+    dev: true
+
   /ts-toolbelt/9.6.0:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
     dev: true
 
-  /ts-type/2.1.4_c5def1868ff5ccee3828885dfd4a1904:
+  /ts-type/2.1.4_40b052fcc472fb25f6e0ba5408d5c97a:
     resolution: {integrity: sha512-wnajiiIMhn/RHJ1oPld95siKmMJrOgaT6+rMmC8vO1LORgDFEzKP2nBmEFM5b4XVe7Q0J5KcU9oRJFzju7UzrA==}
     peerDependencies:
       '@types/bluebird': '*'
@@ -11984,7 +12101,7 @@ packages:
       ts-toolbelt: ^9.6.0
     dependencies:
       '@types/bluebird': 3.5.36
-      '@types/node': 15.0.2
+      '@types/node': 14.18.12
       ts-toolbelt: 9.6.0
       tslib: 2.3.1
       typedarray-dts: 1.0.0
@@ -12370,12 +12487,12 @@ packages:
     requiresBuild: true
     dev: true
 
-  /upath2/3.1.12_@types+node@15.0.2:
+  /upath2/3.1.12_@types+node@14.18.12:
     resolution: {integrity: sha512-yC3eZeCyCXFWjy7Nu4pgjLhXNYjuzuUmJiRgSSw6TJp8Emc+E4951HGPJf+bldFC5SL7oBLeNbtm1fGzXn2gxw==}
     peerDependencies:
       '@types/node': '*'
     dependencies:
-      '@types/node': 15.0.2
+      '@types/node': 14.18.12
       path-is-network-drive: 1.0.13
       path-strip-sep: 1.0.10
       tslib: 2.3.1
